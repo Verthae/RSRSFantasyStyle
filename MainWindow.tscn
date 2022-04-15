@@ -1,0 +1,4694 @@
+[gd_scene load_steps=188 format=2]
+
+[ext_resource path="res://RSRSUI/font/TBUDGothicB.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://RSRSUI/font/UDTypos512.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://RSRSUI/font/arudjingxiheib5_db.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://RSRSUI/font/UDTypos515.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://RSRSUI/buttons/tex_ui_common_button_flat_active.png" type="Texture" id=5]
+[ext_resource path="res://RSRSUI/icon/jutsutekisei/tex_ui_jutsutekisei_icon_water.png" type="Texture" id=6]
+[ext_resource path="res://RSRSUI/separator/tex_ui_common_line_stylestatus.png" type="Texture" id=7]
+[ext_resource path="res://RSRSUI/frames/tex_ui_skill_icon_frame.png" type="Texture" id=8]
+[ext_resource path="res://RSRSUI/buttons/tex_ui_common_button_flat.png" type="Texture" id=9]
+[ext_resource path="res://RSRSUI/icon/attackattribute/tex_ui_attackattribute_icon_inn_font_gl.png" type="Texture" id=10]
+[ext_resource path="res://RSRSUI/frames/tex_ui_common_frame_bk_01.png" type="Texture" id=11]
+[ext_resource path="res://RSRSUI/frames/tex_ui_common_base_stylestatus_statusbase.png" type="Texture" id=12]
+[ext_resource path="res://RSRSUI/icon/jutsutekisei/tex_ui_jutsutekisei_icon_darkness.png" type="Texture" id=13]
+[ext_resource path="res://RSRSUI/bg/tex_ui_party_skillselect.png" type="Texture" id=14]
+[ext_resource path="res://RSRSUI/icon/weapon/tex_ui_weapontype_icon_stike_large.png" type="Texture" id=15]
+[ext_resource path="res://RSRSUI/frames/tex_ui_styledetails_combatpower_window.png" type="Texture" id=16]
+[ext_resource path="res://RSRSUI/header/tex_ui_common_title_stylename.png" type="Texture" id=17]
+[ext_resource path="res://RSRSUI/icon/rarity/tex_ui_rarity_icon_ss_large.png" type="Texture" id=18]
+[ext_resource path="res://RSRSUI/frames/searching/tex_ui_equipment_label_equiplist.png" type="Texture" id=19]
+[ext_resource path="res://RSRSUI/header/tex_ui_styledetails_combatpower_light.png" type="Texture" id=20]
+[ext_resource path="res://RSRSUI/icon/jutsutekisei/tex_ui_jutsutekisei_icon_darkness_small.png" type="Texture" id=21]
+[ext_resource path="res://Testing/a demo/Screenshot_20220313-085633.png" type="Texture" id=22]
+[ext_resource path="res://RSRSUI/icon/skill/tex_skill_4010_gl.png" type="Texture" id=23]
+[ext_resource path="res://RSRSUI/buttons/tex_ui_common_button_flat_toggle_light.png" type="Texture" id=24]
+[ext_resource path="res://RSRSUI/icon/attackattribute/tex_ui_attackattribute_icon_rai_font_gl.png" type="Texture" id=25]
+[ext_resource path="res://RSRSUI/icon/tex_ui_lastparameter_icon_growthtrend_strong.png" type="Texture" id=26]
+[ext_resource path="res://RSRSUI/frames/tex_ui_common_frame_simplicity_dialog.png" type="Texture" id=27]
+[ext_resource path="res://RSRSUI/bg/tex_ui_rarity_bg_SS.png" type="Texture" id=28]
+[ext_resource path="res://RSRSUI/icon/tex_ui_lastparameter_icon_growthtrend_normal.png" type="Texture" id=29]
+[ext_resource path="res://RSRSUI/header/tex_ui_common_base_alpha 1.png" type="Texture" id=30]
+[ext_resource path="res://RSRSUI/icon/ability/tex_ability_4009_gl.png" type="Texture" id=31]
+[ext_resource path="res://RSRSUI/buttons/tex_ui_common_button_flat_toggle_base.png" type="Texture" id=32]
+[ext_resource path="res://RSRSUI/icon/tex_ui_lastparameter_icon_unchanged.png" type="Texture" id=33]
+[ext_resource path="res://RSRSUI/separator/tex_ui_common_window_line.png" type="Texture" id=34]
+[ext_resource path="res://Testing/a demo/style_cutin_229306.png" type="Texture" id=35]
+[ext_resource path="res://RSRSUI/frames/tex_ui_common_frame_simplicity_dialog_2.png" type="Texture" id=36]
+[ext_resource path="res://RSRSUI/frames/tex_ui_ability_icon_frame.png" type="Texture" id=37]
+[ext_resource path="res://RSRSUI/bg/tex_ui_limitisland_result_deco_pattern.png" type="Texture" id=38]
+[ext_resource path="res://RSRSUI/icon/jutsutekisei/tex_ui_jutsutekisei_icon_water_small.png" type="Texture" id=39]
+[ext_resource path="res://RSRSUI/icon/attackattribute/tex_ui_attackattribute_icon_slash_font_gl.png" type="Texture" id=40]
+[ext_resource path="res://RSRSUI/icon/attackattribute/tex_ui_attackattribute_icon_hot_font_gl.png" type="Texture" id=41]
+[ext_resource path="res://RSRSUI/icon/attackattribute/tex_ui_attackattribute_icon_pierce_font_gl.png" type="Texture" id=42]
+[ext_resource path="res://RSRSUI/icon/attackattribute/tex_ui_attackattribute_icon_strike_font_gl.png" type="Texture" id=43]
+[ext_resource path="res://RSRSUI/frames/tex_ui_dojo_window_stylelv_base.png" type="Texture" id=44]
+[ext_resource path="res://RSRSUI/bg/tex_ui_dojo_window_stylelv_texture.png" type="Texture" id=45]
+[ext_resource path="res://RSRSUI/bg/tex_ui_styledetail_tex_stylebase.png" type="Texture" id=46]
+[ext_resource path="res://RSRSUI/icon/weapon/tex_ui_weapontype_icon_stike_small.png" type="Texture" id=47]
+[ext_resource path="res://RSRSUI/frames/tex_ui_dojo_window_stylelv_frame.png" type="Texture" id=48]
+[ext_resource path="res://Screenshot.gd" type="Script" id=49]
+[ext_resource path="res://RSRSUI/frames/tex_ui_common_base_subtitle.png" type="Texture" id=50]
+[ext_resource path="res://RSRSUI/icon/attackattribute/tex_ui_attackattribute_icon_rei_font_gl.png" type="Texture" id=51]
+[ext_resource path="res://RSRSUI/icon/attackattribute/tex_ui_attackattribute_icon_you_font_gl.png" type="Texture" id=52]
+[ext_resource path="res://RSRSUI/frames/tex_ui_successionskill_base_skillstatus.png" type="Texture" id=53]
+[ext_resource path="res://RSRSUI/frames/tex_ui_equipmentchange_label_equipcategory.png" type="Texture" id=54]
+[ext_resource path="res://RSRSUI/icon/tex_ui_common_combatpower_icon.png" type="Texture" id=56]
+[ext_resource path="res://RSRSUI/header/tex_ui_common_combatpower_title.png" type="Texture" id=57]
+[ext_resource path="res://RSRSUI/scrollbar/tex_ui_common_scrollbar.png" type="Texture" id=58]
+[ext_resource path="res://RSRSUI/frames/tex_ui_styledetail_label_lv_03.png" type="Texture" id=59]
+[ext_resource path="res://RSRSUI/icon/tex_ui_skill_proficiency_off.png" type="Texture" id=60]
+[ext_resource path="res://RSRSUI/icon/tex_ui_skill_proficiency_on.png" type="Texture" id=61]
+[ext_resource path="res://RSRSUI/scrollbar/tex_ui_common_scrollbarhandle.png" type="Texture" id=62]
+[ext_resource path="res://RSRSUI/header/tex_ui_dojo_base_exp.png" type="Texture" id=63]
+[ext_resource path="res://RSRSUI/icon/skill/tex_skill_1014_gl.png" type="Texture" id=64]
+[ext_resource path="res://RSRSUI/separator/tex_ui_common_line_vertical.png" type="Texture" id=65]
+[ext_resource path="res://RSRSUI/icon/weapon/tex_ui_weapontype_icon_dagger_small.png" type="Texture" id=66]
+[ext_resource path="res://Testing/a demo/style_229306_fx_front.png" type="Texture" id=68]
+[ext_resource path="res://Testing/a demo/style_229306.png" type="Texture" id=69]
+[ext_resource path="res://Testing/a demo/style_229306_bg.png" type="Texture" id=70]
+
+[sub_resource type="StyleBoxTexture" id=102]
+content_margin_left = 20.0
+content_margin_right = 20.0
+content_margin_top = 43.0
+texture = ExtResource( 11 )
+region_rect = Rect2( 0, 0, 96, 96 )
+margin_left = 38.0
+margin_right = 38.0
+margin_top = 38.0
+margin_bottom = 38.0
+
+[sub_resource type="DynamicFont" id=103]
+size = 25
+outline_size = 1
+outline_color = Color( 0.121569, 0.0784314, 0.00392157, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=104]
+content_margin_left = 46.0
+texture = ExtResource( 63 )
+region_rect = Rect2( 0, 0, 280, 56 )
+margin_left = 99.0
+margin_right = 88.0
+
+[sub_resource type="DynamicFont" id=105]
+size = 29
+outline_size = 1
+outline_color = Color( 0.12, 0.07884, 0.0024, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=83]
+texture = ExtResource( 50 )
+region_rect = Rect2( 0, 0, 96, 32 )
+margin_left = 41.8254
+margin_right = 43.5636
+
+[sub_resource type="DynamicFont" id=106]
+size = 21
+outline_size = 2
+outline_color = Color( 0.270588, 0.203922, 0.109804, 1 )
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=107]
+content_margin_left = 4.0
+content_margin_right = 6.0
+content_margin_top = 3.0
+content_margin_bottom = 4.0
+texture = ExtResource( 12 )
+region_rect = Rect2( 0, 0, 34, 33 )
+margin_left = 15.0
+margin_right = 15.0
+margin_top = 15.0
+margin_bottom = 15.0
+expand_margin_left = 4.0
+expand_margin_right = 6.0
+
+[sub_resource type="StyleBoxTexture" id=112]
+content_margin_left = 4.0
+content_margin_right = 4.0
+texture = ExtResource( 62 )
+region_rect = Rect2( 0, 0, 8, 40 )
+margin_top = 10.1785
+margin_bottom = 10.0
+
+[sub_resource type="StyleBoxTexture" id=108]
+content_margin_left = 4.0
+content_margin_right = 4.0
+content_margin_top = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource( 58 )
+region_rect = Rect2( 0, 0, 8, 40 )
+margin_top = 4.94906
+margin_bottom = 6.24012
+
+[sub_resource type="Theme" id=109]
+VScrollBar/styles/grabber = SubResource( 112 )
+VScrollBar/styles/scroll = SubResource( 108 )
+
+[sub_resource type="StyleBoxEmpty" id=113]
+content_margin_right = 13.0
+
+[sub_resource type="DynamicFont" id=125]
+size = 20
+outline_color = Color( 0.25098, 0.164706, 0.00392157, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=110]
+content_margin_left = 16.0
+content_margin_top = 2.0
+texture = ExtResource( 59 )
+region_rect = Rect2( 0, 0, 64, 38 )
+margin_left = 27.6696
+margin_right = 28.9872
+
+[sub_resource type="DynamicFont" id=111]
+size = 24
+outline_color = Color( 0.25098, 0.164706, 0.00392157, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=85]
+texture = ExtResource( 7 )
+region_rect = Rect2( 0, 0, 40, 16 )
+margin_left = 17.2073
+margin_right = 15.0564
+expand_margin_left = 4.0
+expand_margin_right = 5.0
+
+[sub_resource type="StyleBoxTexture" id=130]
+texture = ExtResource( 11 )
+region_rect = Rect2( 0, 0, 96, 96 )
+margin_left = 38.0
+margin_right = 38.0
+margin_top = 38.0
+margin_bottom = 38.0
+
+[sub_resource type="StyleBoxTexture" id=50]
+texture = ExtResource( 30 )
+region_rect = Rect2( 0, -0.245049, 176, 8.24505 )
+margin_left = 60.4989
+margin_right = 57.6098
+margin_top = 5.0
+margin_bottom = 4.88432
+expand_margin_left = 21.0
+expand_margin_right = 14.0
+
+[sub_resource type="CanvasItemMaterial" id=51]
+blend_mode = 1
+
+[sub_resource type="StyleBoxTexture" id=128]
+texture = ExtResource( 12 )
+region_rect = Rect2( 0, 0, 34, 33 )
+margin_left = 20.2105
+margin_right = 20.5727
+margin_top = 19.5944
+margin_bottom = 18.6105
+modulate_color = Color( 1, 1, 1, 0.498039 )
+
+[sub_resource type="DynamicFont" id=129]
+size = 24
+outline_size = 2
+outline_color = Color( 0.258824, 0.164706, 0.0784314, 1 )
+use_filter = true
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxTexture" id=5]
+texture = ExtResource( 57 )
+region_rect = Rect2( 0, 0, 160, 38 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 34
+outline_color = Color( 0.25098, 0.164706, 0.00392157, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=44]
+size = 20
+outline_size = 2
+outline_color = Color( 0.15, 0.12075, 0.0825, 1 )
+use_filter = true
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=43]
+size = 22
+outline_color = Color( 0.25098, 0.164706, 0.00392157, 1 )
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=45]
+outline_color = Color( 0.25098, 0.164706, 0.00392157, 1 )
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=46]
+size = 20
+outline_color = Color( 0.25098, 0.164706, 0.00392157, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxEmpty" id=47]
+content_margin_right = 30.0
+
+[sub_resource type="DynamicFont" id=139]
+size = 22
+outline_color = Color( 0.25098, 0.164706, 0.00392157, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=39]
+content_margin_left = 32.0
+content_margin_right = 0.0
+content_margin_top = 2.0
+content_margin_bottom = 0.0
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 64, 58 )
+margin_left = 29.228
+margin_right = 29.052
+
+[sub_resource type="StyleBoxTexture" id=38]
+content_margin_left = 31.0
+content_margin_right = 0.0
+content_margin_top = 2.0
+content_margin_bottom = 0.0
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 142, 58 )
+margin_left = 63.4373
+margin_right = 64.3471
+axis_stretch_horizontal = 1
+
+[sub_resource type="StyleBoxEmpty" id=36]
+
+[sub_resource type="GDScript" id=48]
+script/source = "extends Button
+
+func _ready():
+	connect(\"toggled\", self, \"_on_toggle\")
+	
+func _on_toggle(state):
+	var selected = 0
+	for button in get_tree().get_nodes_in_group(\"display\"):
+		if button.pressed:
+			selected += 1
+	if selected == 0:
+		pressed = true
+		return
+	else:
+		$CheckBase/Check.visible = state
+"
+
+[sub_resource type="StyleBoxTexture" id=37]
+content_margin_left = 14.0
+content_margin_right = 0.0
+content_margin_top = 2.0
+content_margin_bottom = 0.0
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 64, 58 )
+margin_left = 29.228
+margin_right = 29.052
+
+[sub_resource type="StyleBoxTexture" id=42]
+content_margin_left = 13.0
+content_margin_right = 0.0
+content_margin_top = 2.0
+content_margin_bottom = 0.0
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 142, 58 )
+margin_left = 63.4373
+margin_right = 64.3471
+axis_stretch_horizontal = 1
+
+[sub_resource type="GDScript" id=49]
+script/source = "extends Button
+
+func _ready():
+	connect(\"toggled\", self, \"_on_toggle\")
+	
+func _on_toggle(state):
+	var selected = 0
+	for button in get_tree().get_nodes_in_group(\"display\"):
+		if button.pressed:
+			selected += 1
+	if selected == 0:
+		pressed = true
+		return
+	else:
+		$CheckBase/Check.visible = state
+"
+
+[sub_resource type="GDScript" id=116]
+script/source = "extends Viewport
+
+func _input(event):
+	for btn in $BottomPanel/Details.group.get_buttons():
+		if btn.get_global_rect().has_point(event.position):
+			btn.pressed = !btn.pressed
+"
+
+[sub_resource type="StyleBoxTexture" id=1]
+texture = ExtResource( 17 )
+region_rect = Rect2( 0, 0, 456, 100 )
+margin_left = 250.177
+margin_right = 193.0
+
+[sub_resource type="DynamicFont" id=126]
+size = 21
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=127]
+size = 28
+outline_size = 3
+outline_color = Color( 0, 0, 0, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=2]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 134, 94 )
+margin_left = 60.0
+margin_right = 60.0
+margin_top = 40.0
+margin_bottom = 40.0
+
+[sub_resource type="DynamicFont" id=7]
+size = 18
+outline_color = Color( 0.25098, 0.164706, 0.00392157, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=8]
+size = 21
+outline_color = Color( 0.25098, 0.164706, 0.00392157, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=9]
+size = 18
+outline_color = Color( 0.25098, 0.164706, 0.00392157, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="VisualShaderNodeColorConstant" id=131]
+constant = Color( 0.123779, 0.660156, 0.559586, 1 )
+
+[sub_resource type="VisualShaderNodeTexture" id=132]
+source = 2
+
+[sub_resource type="VisualShaderNodeScalarUniform" id=25]
+uniform_name = "ScalarUniform"
+
+[sub_resource type="VisualShaderNodeScalarOp" id=26]
+operator = 2
+
+[sub_resource type="VisualShader" id=27]
+code = "shader_type canvas_item;
+uniform float ScalarUniform;
+
+
+
+void vertex() {
+// Output:0
+
+}
+
+void fragment() {
+// Color:2
+	vec3 n_out2p0 = vec3(0.123779, 0.660156, 0.559586);
+	float n_out2p1 = 1.000000;
+
+// Texture:3
+	vec3 n_out3p0;
+	float n_out3p1;
+	{
+		vec4 _tex_read = texture(TEXTURE , UV.xy);
+		n_out3p0 = _tex_read.rgb;
+		n_out3p1 = _tex_read.a;
+	}
+
+// ScalarUniform:4
+	float n_out4p0 = ScalarUniform;
+
+// ScalarOp:5
+	float n_out5p0 = n_out3p1 * n_out4p0;
+
+// Output:0
+	COLOR.rgb = n_out2p0;
+	COLOR.a = n_out5p0;
+
+}
+
+void light() {
+// Output:0
+
+}
+"
+graph_offset = Vector2( -176, 43 )
+mode = 1
+flags/light_only = false
+nodes/fragment/2/node = SubResource( 131 )
+nodes/fragment/2/position = Vector2( -40, 120 )
+nodes/fragment/3/node = SubResource( 132 )
+nodes/fragment/3/position = Vector2( -160, 260 )
+nodes/fragment/4/node = SubResource( 25 )
+nodes/fragment/4/position = Vector2( -120, 420 )
+nodes/fragment/5/node = SubResource( 26 )
+nodes/fragment/5/position = Vector2( 160, 340 )
+nodes/fragment/connections = PoolIntArray( 2, 0, 0, 0, 3, 1, 5, 0, 4, 0, 5, 1, 5, 0, 0, 1 )
+
+[sub_resource type="ShaderMaterial" id=28]
+shader = SubResource( 27 )
+shader_param/ScalarUniform = 1.0
+
+[sub_resource type="StyleBoxEmpty" id=32]
+
+[sub_resource type="StyleBoxTexture" id=29]
+texture = ExtResource( 14 )
+region_rect = Rect2( 0, -10.4396, 64, 42.4396 )
+margin_top = 7.18679
+
+[sub_resource type="StyleBoxEmpty" id=30]
+
+[sub_resource type="ButtonGroup" id=15]
+resource_name = "Choice"
+
+[sub_resource type="StyleBoxTexture" id=31]
+texture = ExtResource( 19 )
+region_rect = Rect2( 0, 0, 48, 32 )
+margin_left = 20.7743
+margin_right = 18.0498
+
+[sub_resource type="DynamicFont" id=134]
+outline_size = 1
+outline_color = Color( 0.25098, 0.164706, 0.00392157, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=135]
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxEmpty" id=33]
+
+[sub_resource type="DynamicFont" id=136]
+size = 19
+outline_color = Color( 0.25098, 0.164706, 0.00392157, 1 )
+use_filter = true
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxTexture" id=137]
+content_margin_left = 0.0
+content_margin_right = 0.0
+content_margin_top = 2.0
+content_margin_bottom = 0.0
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 64, 58 )
+margin_left = 29.228
+margin_right = 29.052
+
+[sub_resource type="StyleBoxTexture" id=138]
+content_margin_left = 0.0
+content_margin_right = 0.0
+content_margin_top = 2.0
+content_margin_bottom = 0.0
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 142, 58 )
+margin_left = 63.4373
+margin_right = 64.3471
+axis_stretch_horizontal = 1
+
+[sub_resource type="StyleBoxEmpty" id=34]
+
+[sub_resource type="GDScript" id=121]
+script/source = "extends Button
+
+enum panel{Ability, Details, Resistance, Skills, Status, Unlocks}
+export(panel) var target
+
+"
+
+[sub_resource type="StyleBoxEmpty" id=35]
+
+[sub_resource type="StyleBoxTexture" id=88]
+content_margin_left = 30.0
+content_margin_right = 28.0
+content_margin_top = 28.0
+content_margin_bottom = 23.0
+texture = ExtResource( 27 )
+region_rect = Rect2( 0, 0, 78, 78 )
+margin_left = 38.291
+margin_right = 37.4108
+margin_top = 37.8509
+margin_bottom = 36.9706
+
+[sub_resource type="DynamicFont" id=89]
+size = 26
+outline_size = 2
+outline_color = Color( 0.12, 0.0905, 0.0492, 1 )
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxEmpty" id=90]
+content_margin_top = 4.0
+
+[sub_resource type="DynamicFont" id=91]
+size = 22
+outline_size = 2
+outline_color = Color( 0.270588, 0.203922, 0.109804, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=92]
+content_margin_left = 7.0
+content_margin_right = 0.0
+content_margin_top = 6.0
+content_margin_bottom = 6.0
+texture = ExtResource( 53 )
+region_rect = Rect2( 0, 0, 40, 40 )
+margin_left = 17.9792
+margin_right = 15.0523
+margin_top = 13.798
+margin_bottom = 16.3067
+expand_margin_left = 4.0
+modulate_color = Color( 1, 1, 1, 0.784314 )
+
+[sub_resource type="DynamicFont" id=93]
+size = 22
+outline_size = 2
+outline_color = Color( 0.12, 0.09216, 0.0504, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=94]
+content_margin_left = 9.0
+content_margin_right = 0.0
+content_margin_top = 6.0
+content_margin_bottom = 6.0
+texture = ExtResource( 53 )
+region_rect = Rect2( 0, 0, 40, 40 )
+margin_left = 17.9792
+margin_right = 15.0523
+margin_top = 13.798
+margin_bottom = 16.3067
+expand_margin_left = 2.0
+expand_margin_right = 2.0
+modulate_color = Color( 1, 1, 1, 0.784314 )
+
+[sub_resource type="DynamicFont" id=95]
+size = 22
+outline_size = 2
+outline_color = Color( 0.12, 0.0905, 0.0492, 1 )
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxTexture" id=96]
+content_margin_left = 7.0
+content_margin_right = 0.0
+content_margin_top = 6.0
+content_margin_bottom = 7.0
+texture = ExtResource( 53 )
+region_rect = Rect2( 0, 0, 40, 40 )
+margin_left = 17.9792
+margin_right = 15.0523
+margin_top = 13.798
+margin_bottom = 16.3067
+expand_margin_left = 4.0
+expand_margin_right = 2.0
+modulate_color = Color( 1, 1, 1, 0.784314 )
+
+[sub_resource type="StyleBoxTexture" id=97]
+content_margin_right = 2.0
+texture = ExtResource( 65 )
+region_rect = Rect2( 0, 0, 2, 2 )
+
+[sub_resource type="StyleBoxEmpty" id=98]
+content_margin_left = 8.0
+
+[sub_resource type="DynamicFont" id=99]
+size = 22
+outline_size = 2
+outline_color = Color( 0.12, 0.09216, 0.0504, 1 )
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxTexture" id=100]
+content_margin_left = 5.0
+content_margin_right = 0.0
+content_margin_top = 9.0
+content_margin_bottom = 6.0
+texture = ExtResource( 53 )
+region_rect = Rect2( 0, 0, 40, 40 )
+margin_left = 17.9792
+margin_right = 15.0523
+margin_top = 13.798
+margin_bottom = 16.3067
+expand_margin_left = 6.0
+expand_margin_right = 4.0
+modulate_color = Color( 1, 1, 1, 0.784314 )
+
+[sub_resource type="DynamicFont" id=101]
+size = 20
+outline_size = 2
+outline_color = Color( 0.12, 0.0905, 0.0492, 1 )
+use_mipmaps = true
+use_filter = true
+extra_spacing_bottom = -2
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=82]
+content_margin_left = 24.0
+content_margin_right = 26.0
+content_margin_top = 24.0
+content_margin_bottom = 23.0
+texture = ExtResource( 27 )
+region_rect = Rect2( 0, 0, 78, 78 )
+margin_left = 38.291
+margin_right = 37.4108
+margin_top = 37.8509
+margin_bottom = 36.9706
+
+[sub_resource type="DynamicFont" id=81]
+size = 23
+outline_size = 2
+outline_color = Color( 0.270588, 0.203922, 0.109804, 1 )
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=84]
+content_margin_top = 7.0
+content_margin_bottom = 7.0
+texture = ExtResource( 12 )
+region_rect = Rect2( 0, 0, 34, 33 )
+margin_left = 20.2105
+margin_right = 20.5727
+margin_top = 19.5944
+margin_bottom = 18.6105
+
+[sub_resource type="DynamicFont" id=86]
+size = 20
+outline_size = 2
+outline_color = Color( 0.164706, 0.109804, 0.109804, 1 )
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxEmpty" id=87]
+content_margin_right = 4.0
+content_margin_top = 1.0
+
+[sub_resource type="StyleBoxTexture" id=72]
+content_margin_left = 25.0
+content_margin_right = 25.0
+content_margin_top = 27.0
+content_margin_bottom = 23.0
+texture = ExtResource( 27 )
+region_rect = Rect2( 0, 0, 78, 78 )
+margin_left = 38.291
+margin_right = 37.4108
+margin_top = 37.8509
+margin_bottom = 36.9706
+
+[sub_resource type="StyleBoxTexture" id=56]
+texture = ExtResource( 44 )
+region_rect = Rect2( 0, 0, 32, 32 )
+margin_left = 19.063
+margin_right = 19.3772
+margin_top = 19.3704
+margin_bottom = 18.4415
+
+[sub_resource type="StyleBoxTexture" id=73]
+texture = ExtResource( 12 )
+region_rect = Rect2( 0, 0, 34, 33 )
+margin_left = 20.2105
+margin_right = 20.5727
+margin_top = 19.5944
+margin_bottom = 18.6105
+expand_margin_left = 1.0
+expand_margin_right = 1.0
+
+[sub_resource type="DynamicFont" id=74]
+size = 21
+outline_size = 2
+outline_color = Color( 0.270588, 0.203922, 0.109804, 1 )
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=75]
+size = 24
+outline_size = 2
+outline_color = Color( 0.270588, 0.203922, 0.109804, 1 )
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=76]
+size = 22
+outline_size = 2
+outline_color = Color( 0.270588, 0.203922, 0.109804, 1 )
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=77]
+size = 20
+outline_size = 2
+outline_color = Color( 0.15, 0.113125, 0.0615, 1 )
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=78]
+content_margin_left = 31.0
+content_margin_right = 29.0
+content_margin_top = 6.0
+content_margin_bottom = 6.0
+texture = ExtResource( 54 )
+region_rect = Rect2( 0, 0, 56, 36 )
+margin_left = 26.6
+margin_right = 24.7
+
+[sub_resource type="DynamicFont" id=79]
+size = 24
+outline_size = 2
+outline_color = Color( 0.270588, 0.203922, 0.109804, 1 )
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=55]
+texture = ExtResource( 48 )
+region_rect = Rect2( 0, -1, 48, 51 )
+margin_left = 21.8293
+margin_right = 22.7582
+margin_top = 21.8293
+margin_bottom = 20.9004
+
+[sub_resource type="VisualShaderNodeVectorOp" id=57]
+
+[sub_resource type="VisualShaderNodeVec3Uniform" id=58]
+uniform_name = "Offset"
+
+[sub_resource type="VisualShaderNodeScalarOp" id=59]
+
+[sub_resource type="VisualShaderNodeScalarUniform" id=60]
+uniform_name = "Darken"
+
+[sub_resource type="VisualShaderNodeColorUniform" id=61]
+uniform_name = "ColorUniform"
+
+[sub_resource type="VisualShaderNodeTexture" id=62]
+texture = ExtResource( 45 )
+
+[sub_resource type="VisualShaderNodeInput" id=63]
+input_name = "uv"
+
+[sub_resource type="VisualShaderNodeTexture" id=64]
+source = 2
+
+[sub_resource type="VisualShaderNodeVec3Uniform" id=65]
+uniform_name = "Scale"
+
+[sub_resource type="VisualShaderNodeVectorOp" id=66]
+operator = 2
+
+[sub_resource type="VisualShaderNodeVectorOp" id=67]
+operator = 2
+
+[sub_resource type="VisualShaderNodeVectorOp" id=68]
+operator = 2
+
+[sub_resource type="VisualShader" id=69]
+code = "shader_type canvas_item;
+uniform vec4 ColorUniform : hint_color;
+uniform vec3 Scale;
+uniform vec3 Offset;
+uniform sampler2D tex_frg_2;
+uniform float Darken;
+
+
+
+void vertex() {
+// Output:0
+
+}
+
+void fragment() {
+// ColorUniform:14
+	vec3 n_out14p0 = ColorUniform.rgb;
+	float n_out14p1 = ColorUniform.a;
+
+// Input:3
+	vec3 n_out3p0 = vec3(UV, 0.0);
+
+// VectorUniform:6
+	vec3 n_out6p0 = Scale;
+
+// VectorOp:7
+	vec3 n_out7p0 = n_out3p0 * n_out6p0;
+
+// VectorUniform:11
+	vec3 n_out11p0 = Offset;
+
+// VectorOp:10
+	vec3 n_out10p0 = n_out7p0 + n_out11p0;
+
+// Texture:2
+	vec4 tex_frg_2_read = texture(tex_frg_2, n_out10p0.xy);
+	vec3 n_out2p0 = tex_frg_2_read.rgb;
+	float n_out2p1 = tex_frg_2_read.a;
+
+// ScalarUniform:13
+	float n_out13p0 = Darken;
+
+// ScalarOp:12
+	float n_out12p0 = n_out2p1 + n_out13p0;
+
+// Texture:4
+	vec3 n_out4p0;
+	float n_out4p1;
+	{
+		vec4 _tex_read = texture(TEXTURE , UV.xy);
+		n_out4p0 = _tex_read.rgb;
+		n_out4p1 = _tex_read.a;
+	}
+
+// VectorOp:8
+	vec3 n_out8p0 = vec3(n_out12p0) * n_out4p0;
+
+// VectorOp:9
+	vec3 n_out9p0 = n_out14p0 * n_out8p0;
+
+// Output:0
+	COLOR.rgb = n_out9p0;
+	COLOR.a = n_out4p1;
+
+}
+
+void light() {
+// Output:0
+
+}
+"
+graph_offset = Vector2( -322.041, -97.4447 )
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2( 580, 100 )
+nodes/fragment/2/node = SubResource( 62 )
+nodes/fragment/2/position = Vector2( -80, 80 )
+nodes/fragment/3/node = SubResource( 63 )
+nodes/fragment/3/position = Vector2( -620, 120 )
+nodes/fragment/4/node = SubResource( 64 )
+nodes/fragment/4/position = Vector2( 0, 420 )
+nodes/fragment/6/node = SubResource( 65 )
+nodes/fragment/6/position = Vector2( -640, 220 )
+nodes/fragment/7/node = SubResource( 66 )
+nodes/fragment/7/position = Vector2( -420, 180 )
+nodes/fragment/8/node = SubResource( 67 )
+nodes/fragment/8/position = Vector2( 220, 100 )
+nodes/fragment/9/node = SubResource( 68 )
+nodes/fragment/9/position = Vector2( 220, -20 )
+nodes/fragment/10/node = SubResource( 57 )
+nodes/fragment/10/position = Vector2( -260, 160 )
+nodes/fragment/11/node = SubResource( 58 )
+nodes/fragment/11/position = Vector2( -560, 300 )
+nodes/fragment/12/node = SubResource( 59 )
+nodes/fragment/12/position = Vector2( 120, 240 )
+nodes/fragment/13/node = SubResource( 60 )
+nodes/fragment/13/position = Vector2( -80, 340 )
+nodes/fragment/14/node = SubResource( 61 )
+nodes/fragment/14/position = Vector2( -60, -40 )
+nodes/fragment/connections = PoolIntArray( 4, 1, 0, 1, 3, 0, 7, 0, 6, 0, 7, 1, 4, 0, 8, 1, 7, 0, 10, 0, 10, 0, 2, 0, 11, 0, 10, 1, 2, 1, 12, 0, 13, 0, 12, 1, 12, 0, 8, 0, 14, 0, 9, 0, 8, 0, 9, 1, 9, 0, 0, 0 )
+
+[sub_resource type="ShaderMaterial" id=70]
+shader = SubResource( 69 )
+shader_param/ColorUniform = Color( 0.14902, 0.0862745, 0.0392157, 1 )
+shader_param/Scale = Vector3( 20.326, 6.321, 0 )
+shader_param/Offset = Vector3( 0.967, -0.237, 0 )
+shader_param/Darken = 1.193
+
+[sub_resource type="ViewportTexture" id=71]
+viewport_path = NodePath("DisplayGeneration/DetailsPanel/BGMask")
+
+[sub_resource type="DynamicFont" id=80]
+size = 22
+outline_size = 2
+outline_color = Color( 0.270588, 0.203922, 0.109804, 1 )
+use_mipmaps = true
+use_filter = true
+extra_spacing_bottom = -2
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=117]
+content_margin_left = 25.0
+content_margin_right = 48.0
+content_margin_top = 24.0
+content_margin_bottom = 24.0
+texture = ExtResource( 27 )
+region_rect = Rect2( 0, 0, 78, 78 )
+margin_left = 38.291
+margin_right = 37.4108
+margin_top = 37.8509
+margin_bottom = 36.9706
+
+[sub_resource type="StyleBoxTexture" id=53]
+texture = ExtResource( 36 )
+region_rect = Rect2( 0, 0, 44, 44 )
+margin_left = 19.419
+margin_right = 19.7521
+margin_top = 20.3096
+margin_bottom = 19.2685
+modulate_color = Color( 0.5, 0.5, 0.5, 0.501961 )
+
+[sub_resource type="DynamicFont" id=54]
+size = 18
+outline_size = 2
+outline_color = Color( 0.12, 0.07824, 0.0504, 1 )
+use_filter = true
+font_data = ExtResource( 2 )
+
+[sub_resource type="ViewportTexture" id=123]
+viewport_path = NodePath("DisplayGeneration")
+
+[sub_resource type="Shader" id=118]
+code = "shader_type canvas_item;
+
+uniform float blur_amount : hint_range(0, 5);
+
+void fragment() {
+	COLOR = textureLod(SCREEN_TEXTURE, SCREEN_UV, blur_amount);
+}"
+
+[sub_resource type="ShaderMaterial" id=119]
+shader = SubResource( 118 )
+shader_param/blur_amount = 2.0
+
+[sub_resource type="ViewportTexture" id=124]
+viewport_path = NodePath("OverlayGeneration")
+
+[sub_resource type="ViewportTexture" id=114]
+viewport_path = NodePath("DisplayGeneration")
+
+[sub_resource type="GDScript" id=115]
+script/source = "extends TextureRect
+
+onready var vpdata = $\"../../DisplayGeneration\" as Viewport
+onready var screenshot = $\"../../ScreenshotGeneration\" as Viewport
+
+func _gui_input(event):
+	if event is InputEventMouseButton and !event.pressed:
+		var ratio = vpdata.size / rect_size
+		event.position *= ratio
+		vpdata.input(event)
+		
+func _input(event):
+	if event is InputEventKey and not event.is_pressed():
+		print(event)
+		if event.scancode == KEY_ENTER:
+			screenshot.capture(300)
+"
+
+[sub_resource type="ViewportTexture" id=120]
+viewport_path = NodePath("OverlayGeneration")
+
+[sub_resource type="GDScript" id=122]
+script/source = "extends TextureRect
+
+onready var vpdata = $\"../../OverlayGeneration\" as Viewport
+
+func _gui_input(event):
+	if event is InputEventMouseButton and !event.pressed:
+		var ratio = vpdata.size / rect_size
+		event.position *= ratio
+		vpdata.input(event)
+
+"
+
+[node name="AspectRatioContainer" type="AspectRatioContainer"]
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+ratio = 0.615
+stretch_mode = 1
+
+[node name="OverlayGeneration" type="Viewport" parent="."]
+size = Vector2( 720, 1520 )
+transparent_bg = true
+msaa = 1
+fxaa = true
+disable_3d = true
+usage = 0
+render_target_v_flip = true
+render_target_update_mode = 3
+
+[node name="UnlockPanel" type="PanelContainer" parent="OverlayGeneration" groups=["Panel"]]
+visible = false
+margin_left = 10.0
+margin_top = 234.0
+margin_right = 710.0
+margin_bottom = 1327.0
+custom_styles/panel = SubResource( 102 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="OverlayGeneration/UnlockPanel"]
+margin_left = 20.0
+margin_top = 43.0
+margin_right = 680.0
+margin_bottom = 1055.0
+custom_constants/separation = 63
+
+[node name="Label" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer"]
+margin_left = 160.0
+margin_right = 500.0
+margin_bottom = 56.0
+rect_min_size = Vector2( 340, 56 )
+size_flags_horizontal = 4
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.972549, 0.956863, 0.74902, 1 )
+custom_fonts/font = SubResource( 103 )
+custom_styles/normal = SubResource( 104 )
+text = "Style Lv"
+valign = 1
+
+[node name="Label" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/Label"]
+margin_left = 197.0
+margin_top = 11.0
+margin_right = 241.0
+margin_bottom = 45.0
+rect_scale = Vector2( 1.052, 1.03 )
+custom_fonts/font = SubResource( 105 )
+text = "42"
+
+[node name="Label2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/Label"]
+margin_left = 243.0
+margin_top = 16.0
+margin_right = 294.0
+margin_bottom = 45.0
+rect_scale = Vector2( 0.959, 1 )
+custom_fonts/font = SubResource( 103 )
+text = "/42"
+
+[node name="Panel" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/Label"]
+margin_left = -160.0
+margin_top = 79.0
+margin_right = 100.0
+margin_bottom = 111.0
+rect_min_size = Vector2( 260, 32 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 83 )
+
+[node name="Title" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/Label/Panel"]
+margin_left = 32.0
+margin_top = 4.0
+margin_right = 326.0
+margin_bottom = 31.0
+rect_scale = Vector2( 0.95, 0.947 )
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 106 )
+text = "Style Lv Bonus"
+valign = 1
+
+[node name="PanelContainer" type="PanelContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer"]
+margin_top = 119.0
+margin_right = 660.0
+margin_bottom = 942.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/panel = SubResource( 107 )
+
+[node name="ScrollContainer" type="ScrollContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer"]
+margin_left = 4.0
+margin_top = 3.0
+margin_right = 654.0
+margin_bottom = 819.0
+size_flags_vertical = 3
+theme = SubResource( 109 )
+custom_styles/bg = SubResource( 113 )
+scroll_horizontal_enabled = false
+
+[node name="VBoxContainer" type="VBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer"]
+margin_right = 637.0
+margin_bottom = 867.0
+size_flags_horizontal = 3
+custom_constants/separation = 0
+
+[node name="Control" type="Control" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_right = 629.0
+margin_bottom = 19.0
+rect_min_size = Vector2( 0, 19 )
+
+[node name="Lv1" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 19.0
+margin_right = 629.0
+margin_bottom = 57.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv1"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv1/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv1"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Separator" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 57.0
+margin_right = 629.0
+margin_bottom = 73.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="Lv2" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 73.0
+margin_right = 629.0
+margin_bottom = 111.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv2"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv2/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv2"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Separator2" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 111.0
+margin_right = 629.0
+margin_bottom = 127.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="Lv3" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 127.0
+margin_right = 629.0
+margin_bottom = 165.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv3"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv3/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv3"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Separator3" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 165.0
+margin_right = 629.0
+margin_bottom = 181.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="Lv4" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 181.0
+margin_right = 629.0
+margin_bottom = 219.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv4"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv4/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv4"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Separator4" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 219.0
+margin_right = 629.0
+margin_bottom = 235.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="Lv5" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 235.0
+margin_right = 629.0
+margin_bottom = 273.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv5"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv5/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv5"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Separator5" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 273.0
+margin_right = 629.0
+margin_bottom = 289.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="Lv6" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 289.0
+margin_right = 629.0
+margin_bottom = 327.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv6"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0.258824, 0.203922, 0.109804, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv6/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv6"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Separator6" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 327.0
+margin_right = 629.0
+margin_bottom = 343.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="Lv7" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 343.0
+margin_right = 629.0
+margin_bottom = 381.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv7"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv7/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv7"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Separator7" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 381.0
+margin_right = 629.0
+margin_bottom = 397.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="Lv8" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 397.0
+margin_right = 629.0
+margin_bottom = 435.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv8"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv8/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv8"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Separator8" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 435.0
+margin_right = 629.0
+margin_bottom = 451.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="Lv9" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 451.0
+margin_right = 629.0
+margin_bottom = 489.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv9"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv9/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv9"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Separator9" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 489.0
+margin_right = 629.0
+margin_bottom = 505.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="Lv10" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 505.0
+margin_right = 629.0
+margin_bottom = 543.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv10"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv10/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv10"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Separator10" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 543.0
+margin_right = 629.0
+margin_bottom = 559.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="Lv11" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 559.0
+margin_right = 629.0
+margin_bottom = 597.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv11"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv11/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv11"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Separator11" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 597.0
+margin_right = 629.0
+margin_bottom = 613.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="Lv12" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 613.0
+margin_right = 629.0
+margin_bottom = 651.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv12"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv12/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv12"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Separator12" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 651.0
+margin_right = 629.0
+margin_bottom = 667.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="Lv13" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 667.0
+margin_right = 629.0
+margin_bottom = 705.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv13"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv13/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv13"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Separator13" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 705.0
+margin_right = 629.0
+margin_bottom = 721.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="Lv14" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 721.0
+margin_right = 629.0
+margin_bottom = 759.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv14"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv14/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv14"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Separator14" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 759.0
+margin_right = 629.0
+margin_bottom = 775.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="Lv15" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 775.0
+margin_right = 629.0
+margin_bottom = 813.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv15"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv15/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv15"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Separator15" type="Panel" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 813.0
+margin_right = 629.0
+margin_bottom = 829.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="Lv16" type="HBoxContainer" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+margin_top = 829.0
+margin_right = 629.0
+margin_bottom = 867.0
+
+[node name="LvTag" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv16"]
+margin_right = 100.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 38 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+custom_styles/normal = SubResource( 110 )
+text = "Lv"
+valign = 1
+
+[node name="LvNum" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv16/LvTag"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -41.0
+margin_top = -11.5
+margin_right = -16.0
+margin_bottom = 11.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 125 )
+text = "1"
+align = 2
+
+[node name="SkillName2" type="Label" parent="OverlayGeneration/UnlockPanel/VBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/Lv16"]
+margin_left = 104.0
+margin_right = 324.0
+margin_bottom = 38.0
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 111 )
+text = "Unlock Ability 1"
+valign = 1
+
+[node name="Control" type="Control" parent="OverlayGeneration/UnlockPanel/VBoxContainer"]
+margin_top = 1005.0
+margin_right = 660.0
+margin_bottom = 1012.0
+rect_min_size = Vector2( 0, 7 )
+
+[node name="StatusPanel" type="Panel" parent="OverlayGeneration" groups=["Panel"]]
+margin_left = 10.0
+margin_top = 445.0
+margin_right = 710.0
+margin_bottom = 1128.0
+custom_styles/panel = SubResource( 130 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="PortraitFrame" type="Panel" parent="OverlayGeneration/StatusPanel"]
+margin_left = 40.0
+margin_top = 40.0
+margin_right = 656.0
+margin_bottom = 170.0
+rect_clip_content = true
+custom_styles/panel = SubResource( 50 )
+
+[node name="NinePatchRect" type="NinePatchRect" parent="OverlayGeneration/StatusPanel/PortraitFrame"]
+material = SubResource( 51 )
+margin_left = -5.0
+margin_top = -40.0
+margin_right = 623.0
+margin_bottom = 129.0
+texture = ExtResource( 46 )
+region_rect = Rect2( 0, 0, 148, 42.7082 )
+patch_margin_left = 60
+patch_margin_right = 58
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="OverlayGeneration/StatusPanel/PortraitFrame"]
+visible = false
+material = SubResource( 51 )
+margin_left = -5.0
+margin_top = -19.0
+margin_right = 607.0
+margin_bottom = 154.0
+rect_scale = Vector2( 1.03, 1.013 )
+texture = ExtResource( 38 )
+region_rect = Rect2( 0, 0, 148, 128.426 )
+patch_margin_left = 63
+patch_margin_top = 85
+patch_margin_right = 56
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="TextureRect" type="TextureRect" parent="OverlayGeneration/StatusPanel/PortraitFrame"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 118.0
+margin_right = 14.0
+margin_bottom = -2.0
+texture = ExtResource( 35 )
+stretch_mode = 4
+
+[node name="CPData" type="Panel" parent="OverlayGeneration/StatusPanel"]
+margin_left = 16.0
+margin_top = 197.0
+margin_right = 347.0
+margin_bottom = 298.0
+custom_styles/panel = SubResource( 128 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Title" type="Label" parent="OverlayGeneration/StatusPanel/CPData"]
+margin_left = 6.0
+margin_top = 3.0
+margin_right = 326.0
+margin_bottom = 38.0
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 129 )
+custom_styles/normal = SubResource( 5 )
+text = "CP"
+align = 1
+valign = 1
+
+[node name="CPIcon" type="TextureRect" parent="OverlayGeneration/StatusPanel/CPData"]
+margin_left = 17.0
+margin_top = 48.0
+margin_right = 61.0
+margin_bottom = 92.0
+texture = ExtResource( 56 )
+
+[node name="CPAmount" type="Label" parent="OverlayGeneration/StatusPanel/CPData"]
+margin_left = 71.0
+margin_top = 52.0
+margin_right = 317.0
+margin_bottom = 91.0
+grow_horizontal = 0
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 6 )
+text = "12,194"
+align = 2
+
+[node name="Stats" type="Panel" parent="OverlayGeneration/StatusPanel"]
+margin_left = 16.0
+margin_top = 302.0
+margin_right = 348.0
+margin_bottom = 495.0
+custom_styles/panel = SubResource( 128 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="HP" type="Label" parent="OverlayGeneration/StatusPanel/Stats"]
+margin_left = 12.0
+margin_top = 14.0
+margin_right = 49.0
+margin_bottom = 40.0
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 44 )
+text = "HP"
+align = 2
+
+[node name="HPValue" type="Label" parent="OverlayGeneration/StatusPanel/Stats/HP"]
+margin_left = 236.0
+margin_top = -1.0
+margin_right = 304.0
+margin_bottom = 25.0
+custom_fonts/font = SubResource( 43 )
+text = "1372"
+align = 2
+
+[node name="Separator2" type="NinePatchRect" parent="OverlayGeneration/StatusPanel/Stats"]
+self_modulate = Color( 1, 1, 1, 0.247059 )
+margin_left = 12.0
+margin_top = 43.0
+margin_right = 321.0
+margin_bottom = 44.0
+rect_min_size = Vector2( 0, 2 )
+texture = ExtResource( 34 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="LP" type="Label" parent="OverlayGeneration/StatusPanel/Stats"]
+margin_left = 12.0
+margin_top = 50.0
+margin_right = 45.0
+margin_bottom = 76.0
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 44 )
+text = "LP"
+align = 2
+
+[node name="LPValue" type="Label" parent="OverlayGeneration/StatusPanel/Stats/LP"]
+margin_left = 236.0
+margin_right = 304.0
+margin_bottom = 26.0
+custom_fonts/font = SubResource( 43 )
+text = "6"
+align = 2
+
+[node name="Separator3" type="NinePatchRect" parent="OverlayGeneration/StatusPanel/Stats"]
+self_modulate = Color( 1, 1, 1, 0.247059 )
+margin_left = 12.0
+margin_top = 78.0
+margin_right = 321.0
+margin_bottom = 79.0
+rect_min_size = Vector2( 0, 2 )
+texture = ExtResource( 34 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="BPHeading" type="Label" parent="OverlayGeneration/StatusPanel/Stats"]
+margin_left = 15.0
+margin_top = 119.0
+margin_right = 83.0
+margin_bottom = 145.0
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 44 )
+text = "BP"
+
+[node name="Start" type="Label" parent="OverlayGeneration/StatusPanel/Stats/BPHeading"]
+margin_left = 112.0
+margin_top = -31.0
+margin_right = 188.0
+margin_bottom = -10.0
+custom_fonts/font = SubResource( 45 )
+text = "Starting"
+align = 2
+
+[node name="StartValue" type="Label" parent="OverlayGeneration/StatusPanel/Stats/BPHeading/Start"]
+margin_left = 121.0
+margin_top = -5.0
+margin_right = 189.0
+margin_bottom = 21.0
+custom_fonts/font = SubResource( 43 )
+text = "10"
+align = 2
+
+[node name="Separator4" type="NinePatchRect" parent="OverlayGeneration/StatusPanel/Stats/BPHeading"]
+self_modulate = Color( 1, 1, 1, 0.247059 )
+margin_left = 108.0
+margin_top = -6.0
+margin_right = 308.0
+margin_bottom = -5.0
+rect_min_size = Vector2( 0, 2 )
+texture = ExtResource( 34 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="Recover" type="Label" parent="OverlayGeneration/StatusPanel/Stats/BPHeading"]
+margin_left = 112.0
+margin_top = 37.0
+margin_right = 186.0
+margin_bottom = 56.0
+custom_fonts/font = SubResource( 45 )
+text = "Recover"
+align = 2
+
+[node name="RecoverValue" type="Label" parent="OverlayGeneration/StatusPanel/Stats/BPHeading/Recover"]
+margin_left = 121.0
+margin_top = -1.0
+margin_right = 189.0
+margin_bottom = 25.0
+custom_fonts/font = SubResource( 43 )
+text = "3"
+align = 2
+
+[node name="Separator5" type="NinePatchRect" parent="OverlayGeneration/StatusPanel/Stats/BPHeading"]
+self_modulate = Color( 1, 1, 1, 0.247059 )
+margin_left = 108.0
+margin_top = 29.0
+margin_right = 308.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 0, 2 )
+texture = ExtResource( 34 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="MAX" type="Label" parent="OverlayGeneration/StatusPanel/Stats/BPHeading"]
+margin_left = 112.0
+margin_top = 4.0
+margin_right = 154.0
+margin_bottom = 23.0
+custom_fonts/font = SubResource( 45 )
+text = "MAX"
+align = 2
+
+[node name="MaxValue" type="Label" parent="OverlayGeneration/StatusPanel/Stats/BPHeading/MAX"]
+margin_left = 121.0
+margin_top = -4.0
+margin_right = 189.0
+margin_bottom = 22.0
+custom_fonts/font = SubResource( 43 )
+text = "20"
+align = 2
+
+[node name="Attributes" type="Panel" parent="OverlayGeneration/StatusPanel"]
+margin_left = 352.0
+margin_top = 195.0
+margin_right = 684.0
+margin_bottom = 495.0
+custom_styles/panel = SubResource( 128 )
+
+[node name="AttributeList" type="VBoxContainer" parent="OverlayGeneration/StatusPanel/Attributes"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_top = 14.0
+margin_right = -16.0
+
+[node name="STR" type="HBoxContainer" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList"]
+margin_right = 312.0
+margin_bottom = 26.0
+custom_constants/separation = 1
+
+[node name="Growth" type="TextureRect" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/STR"]
+margin_top = 1.0
+margin_right = 24.0
+margin_bottom = 25.0
+rect_min_size = Vector2( 24, 24 )
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource( 33 )
+expand = true
+
+[node name="Stat" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/STR"]
+margin_left = 25.0
+margin_top = 1.0
+margin_right = 154.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 46 )
+text = "STR"
+
+[node name="StyleBonus" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/STR"]
+margin_left = 155.0
+margin_right = 253.0
+margin_bottom = 26.0
+custom_fonts/font = SubResource( 43 )
+custom_styles/normal = SubResource( 47 )
+text = "1372"
+align = 2
+
+[node name="Value" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/STR"]
+margin_left = 254.0
+margin_right = 312.0
+margin_bottom = 26.0
+rect_min_size = Vector2( 58, 0 )
+custom_fonts/font = SubResource( 43 )
+text = "128"
+align = 1
+
+[node name="Separator2" type="NinePatchRect" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList"]
+self_modulate = Color( 1, 1, 1, 0.247059 )
+margin_top = 30.0
+margin_right = 312.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 312, 2 )
+size_flags_horizontal = 4
+size_flags_vertical = 0
+texture = ExtResource( 34 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="END" type="HBoxContainer" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList"]
+margin_top = 36.0
+margin_right = 312.0
+margin_bottom = 62.0
+custom_constants/separation = 1
+
+[node name="Growth" type="TextureRect" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/END"]
+margin_top = 1.0
+margin_right = 24.0
+margin_bottom = 25.0
+rect_min_size = Vector2( 24, 24 )
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource( 33 )
+expand = true
+
+[node name="Stat" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/END"]
+margin_left = 25.0
+margin_top = 1.0
+margin_right = 154.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 46 )
+text = "END"
+
+[node name="StyleBonus" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/END"]
+margin_left = 155.0
+margin_right = 253.0
+margin_bottom = 26.0
+custom_fonts/font = SubResource( 43 )
+custom_styles/normal = SubResource( 47 )
+text = "1372"
+align = 2
+
+[node name="Value" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/END"]
+margin_left = 254.0
+margin_right = 312.0
+margin_bottom = 26.0
+rect_min_size = Vector2( 58, 0 )
+custom_fonts/font = SubResource( 43 )
+text = "143"
+align = 1
+
+[node name="Separator4" type="NinePatchRect" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList"]
+self_modulate = Color( 1, 1, 1, 0.247059 )
+margin_top = 66.0
+margin_right = 312.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 312, 2 )
+size_flags_horizontal = 4
+size_flags_vertical = 0
+texture = ExtResource( 34 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="DEX" type="HBoxContainer" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList"]
+margin_top = 72.0
+margin_right = 312.0
+margin_bottom = 98.0
+custom_constants/separation = 1
+
+[node name="Growth" type="TextureRect" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/DEX"]
+margin_top = 1.0
+margin_right = 24.0
+margin_bottom = 25.0
+rect_min_size = Vector2( 24, 24 )
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource( 33 )
+expand = true
+
+[node name="Stat" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/DEX"]
+margin_left = 25.0
+margin_top = 1.0
+margin_right = 154.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 46 )
+text = "DEX"
+
+[node name="StyleBonus" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/DEX"]
+margin_left = 155.0
+margin_right = 253.0
+margin_bottom = 26.0
+custom_fonts/font = SubResource( 43 )
+custom_styles/normal = SubResource( 47 )
+text = "1372"
+align = 2
+
+[node name="Value" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/DEX"]
+margin_left = 254.0
+margin_right = 312.0
+margin_bottom = 26.0
+rect_min_size = Vector2( 58, 0 )
+custom_fonts/font = SubResource( 43 )
+text = "143"
+align = 1
+
+[node name="Separator5" type="NinePatchRect" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList"]
+self_modulate = Color( 1, 1, 1, 0.247059 )
+margin_top = 102.0
+margin_right = 312.0
+margin_bottom = 104.0
+rect_min_size = Vector2( 312, 2 )
+size_flags_horizontal = 4
+size_flags_vertical = 0
+texture = ExtResource( 34 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="AGI" type="HBoxContainer" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList"]
+margin_top = 108.0
+margin_right = 312.0
+margin_bottom = 134.0
+custom_constants/separation = 1
+
+[node name="Growth" type="TextureRect" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/AGI"]
+margin_top = 1.0
+margin_right = 24.0
+margin_bottom = 25.0
+rect_min_size = Vector2( 24, 24 )
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource( 33 )
+expand = true
+
+[node name="Stat" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/AGI"]
+margin_left = 25.0
+margin_top = 1.0
+margin_right = 154.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 46 )
+text = "AGI"
+
+[node name="StyleBonus" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/AGI"]
+margin_left = 155.0
+margin_right = 253.0
+margin_bottom = 26.0
+custom_fonts/font = SubResource( 43 )
+custom_styles/normal = SubResource( 47 )
+text = "1372"
+align = 2
+
+[node name="Value" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/AGI"]
+margin_left = 254.0
+margin_right = 312.0
+margin_bottom = 26.0
+rect_min_size = Vector2( 58, 0 )
+custom_fonts/font = SubResource( 43 )
+text = "143"
+align = 1
+
+[node name="Separator6" type="NinePatchRect" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList"]
+self_modulate = Color( 1, 1, 1, 0.247059 )
+margin_top = 138.0
+margin_right = 312.0
+margin_bottom = 140.0
+rect_min_size = Vector2( 312, 2 )
+size_flags_horizontal = 4
+size_flags_vertical = 0
+texture = ExtResource( 34 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="INT" type="HBoxContainer" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList"]
+margin_top = 144.0
+margin_right = 312.0
+margin_bottom = 170.0
+custom_constants/separation = 1
+
+[node name="Growth" type="TextureRect" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/INT"]
+margin_top = 1.0
+margin_right = 24.0
+margin_bottom = 25.0
+rect_min_size = Vector2( 24, 24 )
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource( 26 )
+expand = true
+
+[node name="Stat" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/INT"]
+margin_left = 25.0
+margin_top = 1.0
+margin_right = 154.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 46 )
+text = "INT"
+
+[node name="StyleBonus" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/INT"]
+margin_left = 155.0
+margin_right = 253.0
+margin_bottom = 26.0
+custom_fonts/font = SubResource( 43 )
+custom_styles/normal = SubResource( 47 )
+text = "1372"
+align = 2
+
+[node name="Value" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/INT"]
+margin_left = 254.0
+margin_right = 312.0
+margin_bottom = 26.0
+rect_min_size = Vector2( 58, 0 )
+custom_fonts/font = SubResource( 43 )
+text = "143"
+align = 1
+
+[node name="Separator7" type="NinePatchRect" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList"]
+self_modulate = Color( 1, 1, 1, 0.247059 )
+margin_top = 174.0
+margin_right = 312.0
+margin_bottom = 176.0
+rect_min_size = Vector2( 312, 2 )
+size_flags_horizontal = 4
+size_flags_vertical = 0
+texture = ExtResource( 34 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="WIL" type="HBoxContainer" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList"]
+margin_top = 180.0
+margin_right = 312.0
+margin_bottom = 206.0
+custom_constants/separation = 1
+
+[node name="Growth" type="TextureRect" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/WIL"]
+margin_top = 1.0
+margin_right = 24.0
+margin_bottom = 25.0
+rect_min_size = Vector2( 24, 24 )
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource( 29 )
+expand = true
+
+[node name="Stat" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/WIL"]
+margin_left = 25.0
+margin_top = 1.0
+margin_right = 154.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 46 )
+text = "WIL"
+
+[node name="StyleBonus" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/WIL"]
+margin_left = 155.0
+margin_right = 253.0
+margin_bottom = 26.0
+custom_fonts/font = SubResource( 43 )
+custom_styles/normal = SubResource( 47 )
+text = "1372"
+align = 2
+
+[node name="Value" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/WIL"]
+margin_left = 254.0
+margin_right = 312.0
+margin_bottom = 26.0
+rect_min_size = Vector2( 58, 0 )
+custom_fonts/font = SubResource( 43 )
+text = "143"
+align = 1
+
+[node name="Separator8" type="NinePatchRect" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList"]
+self_modulate = Color( 1, 1, 1, 0.247059 )
+margin_top = 210.0
+margin_right = 312.0
+margin_bottom = 212.0
+rect_min_size = Vector2( 312, 2 )
+size_flags_horizontal = 4
+size_flags_vertical = 0
+texture = ExtResource( 34 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="LOV" type="HBoxContainer" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList"]
+margin_top = 216.0
+margin_right = 312.0
+margin_bottom = 242.0
+custom_constants/separation = 1
+
+[node name="Growth" type="TextureRect" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/LOV"]
+margin_top = 1.0
+margin_right = 24.0
+margin_bottom = 25.0
+rect_min_size = Vector2( 24, 24 )
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource( 33 )
+expand = true
+
+[node name="Stat" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/LOV"]
+margin_left = 25.0
+margin_top = 1.0
+margin_right = 154.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 46 )
+text = "LOV"
+
+[node name="StyleBonus" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/LOV"]
+margin_left = 155.0
+margin_right = 253.0
+margin_bottom = 26.0
+custom_fonts/font = SubResource( 43 )
+custom_styles/normal = SubResource( 47 )
+text = "1372"
+align = 2
+
+[node name="Value" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/LOV"]
+margin_left = 254.0
+margin_right = 312.0
+margin_bottom = 26.0
+rect_min_size = Vector2( 58, 0 )
+custom_fonts/font = SubResource( 43 )
+text = "143"
+align = 1
+
+[node name="Separator9" type="NinePatchRect" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList"]
+self_modulate = Color( 1, 1, 1, 0.247059 )
+margin_top = 246.0
+margin_right = 312.0
+margin_bottom = 248.0
+rect_min_size = Vector2( 312, 2 )
+size_flags_horizontal = 4
+size_flags_vertical = 0
+texture = ExtResource( 34 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="CHA" type="HBoxContainer" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList"]
+margin_top = 252.0
+margin_right = 312.0
+margin_bottom = 278.0
+custom_constants/separation = 1
+
+[node name="Growth" type="TextureRect" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/CHA"]
+margin_top = 1.0
+margin_right = 24.0
+margin_bottom = 25.0
+rect_min_size = Vector2( 24, 24 )
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource( 33 )
+expand = true
+
+[node name="Stat" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/CHA"]
+margin_left = 25.0
+margin_top = 1.0
+margin_right = 154.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 46 )
+text = "CHA"
+
+[node name="StyleBonus" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/CHA"]
+margin_left = 155.0
+margin_right = 253.0
+margin_bottom = 26.0
+custom_fonts/font = SubResource( 43 )
+custom_styles/normal = SubResource( 47 )
+text = "1372"
+align = 2
+
+[node name="Value" type="Label" parent="OverlayGeneration/StatusPanel/Attributes/AttributeList/CHA"]
+margin_left = 254.0
+margin_right = 312.0
+margin_bottom = 26.0
+rect_min_size = Vector2( 58, 0 )
+custom_fonts/font = SubResource( 43 )
+text = "143"
+align = 1
+
+[node name="Separator" type="NinePatchRect" parent="OverlayGeneration/StatusPanel"]
+self_modulate = Color( 1, 1, 1, 0.247059 )
+margin_left = 20.0
+margin_top = 568.0
+margin_right = 680.0
+margin_bottom = 584.0
+texture = ExtResource( 7 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="Character" type="Button" parent="OverlayGeneration/StatusPanel" groups=["display"]]
+margin_left = 143.0
+margin_top = 502.0
+margin_right = 342.0
+margin_bottom = 560.0
+custom_fonts/font = SubResource( 139 )
+custom_styles/hover = SubResource( 39 )
+custom_styles/pressed = SubResource( 38 )
+custom_styles/focus = SubResource( 36 )
+custom_styles/normal = SubResource( 39 )
+toggle_mode = true
+pressed = true
+text = "Character"
+script = SubResource( 48 )
+
+[node name="CheckBase" type="TextureRect" parent="OverlayGeneration/StatusPanel/Character"]
+margin_left = 19.0
+margin_top = 18.0
+margin_right = 41.0
+margin_bottom = 40.0
+texture = ExtResource( 32 )
+
+[node name="Check" type="TextureRect" parent="OverlayGeneration/StatusPanel/Character/CheckBase"]
+margin_left = -3.0
+margin_top = -3.0
+margin_right = 25.0
+margin_bottom = 25.0
+texture = ExtResource( 24 )
+
+[node name="Style" type="Button" parent="OverlayGeneration/StatusPanel" groups=["display"]]
+margin_left = 359.0
+margin_top = 502.0
+margin_right = 558.0
+margin_bottom = 560.0
+custom_fonts/font = SubResource( 139 )
+custom_styles/hover = SubResource( 37 )
+custom_styles/pressed = SubResource( 42 )
+custom_styles/focus = SubResource( 36 )
+custom_styles/normal = SubResource( 37 )
+toggle_mode = true
+text = "Style"
+script = SubResource( 49 )
+
+[node name="CheckBase" type="TextureRect" parent="OverlayGeneration/StatusPanel/Style"]
+margin_left = 19.0
+margin_top = 18.0
+margin_right = 41.0
+margin_bottom = 40.0
+texture = ExtResource( 32 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Check" type="TextureRect" parent="OverlayGeneration/StatusPanel/Style/CheckBase"]
+visible = false
+margin_left = -3.0
+margin_top = -3.0
+margin_right = 25.0
+margin_bottom = 25.0
+texture = ExtResource( 24 )
+
+[node name="DisplayGeneration" type="Viewport" parent="."]
+size = Vector2( 720, 1520 )
+own_world = true
+transparent_bg = true
+render_target_v_flip = true
+render_target_update_mode = 3
+script = SubResource( 116 )
+
+[node name="StyleHeader" type="Panel" parent="DisplayGeneration"]
+margin_left = 71.0
+margin_top = 142.0
+margin_right = 682.0
+margin_bottom = 244.0
+rect_pivot_offset = Vector2( -754, 396 )
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Rarity" type="TextureRect" parent="DisplayGeneration/StyleHeader"]
+margin_left = -69.0
+margin_top = -14.0
+margin_right = 156.0
+margin_bottom = 186.0
+texture = ExtResource( 18 )
+expand = true
+stretch_mode = 5
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="DamageType" type="TextureRect" parent="DisplayGeneration/StyleHeader"]
+margin_left = 473.0
+margin_top = 10.0
+margin_right = 553.0
+margin_bottom = 90.0
+texture = ExtResource( 15 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Element1" type="TextureRect" parent="DisplayGeneration/StyleHeader"]
+margin_left = 555.0
+margin_top = 20.0
+margin_right = 581.0
+margin_bottom = 46.0
+texture = ExtResource( 6 )
+expand = true
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Element2" type="TextureRect" parent="DisplayGeneration/StyleHeader"]
+margin_left = 545.0
+margin_top = 54.0
+margin_right = 571.0
+margin_bottom = 80.0
+texture = ExtResource( 13 )
+expand = true
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StyleName" type="Label" parent="DisplayGeneration/StyleHeader"]
+margin_left = 198.0
+margin_top = 24.0
+margin_right = 391.0
+margin_bottom = 49.0
+rect_scale = Vector2( 0.94, 1 )
+custom_fonts/font = SubResource( 126 )
+text = "[My Dream Is...]"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CharacterName" type="Label" parent="DisplayGeneration/StyleHeader"]
+margin_left = 193.0
+margin_top = 49.0
+margin_right = 389.0
+margin_bottom = 81.0
+rect_scale = Vector2( 0.985, 1 )
+custom_fonts/font = SubResource( 127 )
+text = "Rocbouquet"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CPBox" type="Panel" parent="DisplayGeneration"]
+margin_left = 10.0
+margin_top = 891.0
+margin_right = 244.0
+margin_bottom = 1051.0
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CPData" type="Panel" parent="DisplayGeneration/CPBox"]
+margin_left = 8.0
+margin_top = 10.0
+margin_right = 227.0
+margin_bottom = 102.0
+custom_styles/panel = SubResource( 128 )
+
+[node name="Title" type="Label" parent="DisplayGeneration/CPBox/CPData"]
+margin_left = 5.0
+margin_top = 3.0
+margin_right = 213.0
+margin_bottom = 38.0
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 129 )
+custom_styles/normal = SubResource( 5 )
+text = "CP  "
+align = 1
+valign = 1
+
+[node name="Highlight" type="TextureRect" parent="DisplayGeneration/CPBox/CPData/Title"]
+self_modulate = Color( 1, 1, 1, 0.498039 )
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 20 )
+
+[node name="CPIcon" type="TextureRect" parent="DisplayGeneration/CPBox/CPData"]
+margin_left = 10.0
+margin_top = 40.0
+margin_right = 54.0
+margin_bottom = 84.0
+texture = ExtResource( 56 )
+
+[node name="CPAmount" type="Label" parent="DisplayGeneration/CPBox/CPData"]
+margin_left = 64.0
+margin_top = 44.0
+margin_right = 206.0
+margin_bottom = 83.0
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 6 )
+text = "12,194"
+
+[node name="StyleLevel" type="Panel" parent="DisplayGeneration/CPBox"]
+margin_left = 8.0
+margin_top = 97.0
+margin_right = 227.0
+margin_bottom = 152.0
+custom_styles/panel = SubResource( 128 )
+
+[node name="Highlight" type="TextureRect" parent="DisplayGeneration/CPBox/StyleLevel"]
+self_modulate = Color( 1, 1, 1, 0.498039 )
+margin_left = 5.0
+margin_top = 5.0
+margin_right = 45.0
+margin_bottom = 45.0
+texture = ExtResource( 20 )
+
+[node name="Title" type="Label" parent="DisplayGeneration/CPBox/StyleLevel"]
+margin_left = 10.0
+margin_top = 21.0
+margin_right = 91.0
+margin_bottom = 42.0
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 7 )
+text = "Style Lv"
+
+[node name="CurrentLevel" type="Label" parent="DisplayGeneration/CPBox/StyleLevel"]
+margin_left = 117.0
+margin_top = 16.0
+margin_right = 160.0
+margin_bottom = 41.0
+custom_fonts/font = SubResource( 8 )
+text = "30"
+
+[node name="MaxLevel" type="Label" parent="DisplayGeneration/CPBox/StyleLevel"]
+margin_left = 148.0
+margin_top = 19.0
+margin_right = 185.0
+margin_bottom = 40.0
+custom_fonts/font = SubResource( 9 )
+text = "/30"
+
+[node name="BottomPanel" type="Panel" parent="DisplayGeneration"]
+margin_left = 10.0
+margin_top = 1055.0
+margin_right = 710.0
+margin_bottom = 1354.0
+custom_styles/panel = SubResource( 130 )
+
+[node name="SkillList" type="Panel" parent="DisplayGeneration/BottomPanel"]
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 476.0
+margin_bottom = 283.0
+custom_styles/panel = SubResource( 128 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Skill1" type="Button" parent="DisplayGeneration/BottomPanel/SkillList"]
+material = SubResource( 28 )
+margin_left = 19.0
+margin_top = 9.0
+margin_right = 441.0
+margin_bottom = 89.0
+custom_styles/hover = SubResource( 32 )
+custom_styles/pressed = SubResource( 29 )
+custom_styles/focus = SubResource( 30 )
+custom_styles/disabled = SubResource( 30 )
+custom_styles/normal = SubResource( 30 )
+toggle_mode = true
+shortcut_in_tooltip = false
+group = SubResource( 15 )
+
+[node name="SkillName" type="Label" parent="DisplayGeneration/BottomPanel/SkillList/Skill1"]
+margin_left = 85.0
+margin_top = 8.0
+margin_right = 271.0
+margin_bottom = 33.0
+custom_fonts/font = SubResource( 125 )
+text = "Hundred Petals"
+
+[node name="RankPane" type="Panel" parent="DisplayGeneration/BottomPanel/SkillList/Skill1"]
+margin_left = 81.0
+margin_top = 35.0
+margin_right = 169.0
+margin_bottom = 63.0
+custom_styles/panel = SubResource( 31 )
+
+[node name="Title" type="Label" parent="DisplayGeneration/BottomPanel/SkillList/Skill1/RankPane"]
+margin_left = 8.0
+margin_top = 5.0
+margin_right = 53.0
+margin_bottom = 24.0
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 134 )
+text = "Rank"
+
+[node name="Rank" type="Label" parent="DisplayGeneration/BottomPanel/SkillList/Skill1/RankPane"]
+margin_left = 53.0
+margin_top = 5.0
+margin_right = 80.0
+margin_bottom = 26.0
+custom_fonts/font = SubResource( 135 )
+text = "1"
+align = 2
+
+[node name="SkillFrame" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill1"]
+margin_left = 7.0
+margin_top = 4.0
+margin_right = 77.0
+margin_bottom = 73.0
+texture = ExtResource( 8 )
+expand = true
+
+[node name="SkillIcon" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill1/SkillFrame"]
+show_behind_parent = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 23 )
+expand = true
+
+[node name="Proficiency" type="HBoxContainer" parent="DisplayGeneration/BottomPanel/SkillList/Skill1/SkillFrame"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -19.0
+margin_bottom = -3.0
+custom_constants/separation = -6
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill1/SkillFrame/Proficiency"]
+margin_left = 26.0
+margin_right = 44.0
+margin_bottom = 18.0
+rect_min_size = Vector2( 18, 18 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource( 60 )
+expand = true
+
+[node name="TextureRect4" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill1/SkillFrame/Proficiency/TextureRect"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -12.0
+margin_top = -12.0
+margin_right = 12.0
+margin_bottom = 12.0
+texture = ExtResource( 61 )
+
+[node name="TextureRect2" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill1/SkillFrame/Proficiency"]
+visible = false
+margin_left = 26.0
+margin_right = 44.0
+margin_bottom = 18.0
+rect_min_size = Vector2( 18, 18 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource( 60 )
+expand = true
+
+[node name="TextureRect4" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill1/SkillFrame/Proficiency/TextureRect2"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -12.0
+margin_top = -12.0
+margin_right = 12.0
+margin_bottom = 12.0
+texture = ExtResource( 61 )
+
+[node name="TextureRect3" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill1/SkillFrame/Proficiency"]
+visible = false
+margin_left = 32.0
+margin_right = 50.0
+margin_bottom = 18.0
+rect_min_size = Vector2( 18, 18 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource( 60 )
+expand = true
+
+[node name="TextureRect4" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill1/SkillFrame/Proficiency/TextureRect3"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -12.0
+margin_top = -12.0
+margin_right = 12.0
+margin_bottom = 12.0
+texture = ExtResource( 61 )
+
+[node name="DamageType" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill1/SkillFrame"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 44.0
+margin_top = -1.0
+margin_bottom = -44.0
+texture = ExtResource( 21 )
+expand = true
+
+[node name="DamageIcons" type="HBoxContainer" parent="DisplayGeneration/BottomPanel/SkillList/Skill1"]
+margin_left = 171.0
+margin_top = 30.0
+margin_right = 211.0
+margin_bottom = 70.0
+
+[node name="Dark" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill1/DamageIcons"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 10 )
+
+[node name="Separator1" type="NinePatchRect" parent="DisplayGeneration/BottomPanel/SkillList"]
+self_modulate = Color( 1, 1, 1, 0.247059 )
+margin_left = 12.0
+margin_top = 81.0
+margin_right = 448.0
+margin_bottom = 97.0
+texture = ExtResource( 7 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="Skill2" type="Button" parent="DisplayGeneration/BottomPanel/SkillList"]
+material = SubResource( 28 )
+margin_left = 19.0
+margin_top = 94.0
+margin_right = 441.0
+margin_bottom = 174.0
+custom_styles/hover = SubResource( 33 )
+custom_styles/pressed = SubResource( 29 )
+custom_styles/focus = SubResource( 30 )
+custom_styles/disabled = SubResource( 30 )
+custom_styles/normal = SubResource( 30 )
+toggle_mode = true
+shortcut_in_tooltip = false
+group = SubResource( 15 )
+
+[node name="SkillName" type="Label" parent="DisplayGeneration/BottomPanel/SkillList/Skill2"]
+margin_left = 85.0
+margin_top = 8.0
+margin_right = 271.0
+margin_bottom = 33.0
+custom_fonts/font = SubResource( 125 )
+text = "Tri Flower"
+
+[node name="RankPane" type="Panel" parent="DisplayGeneration/BottomPanel/SkillList/Skill2"]
+margin_left = 81.0
+margin_top = 35.0
+margin_right = 169.0
+margin_bottom = 63.0
+custom_styles/panel = SubResource( 31 )
+
+[node name="Title" type="Label" parent="DisplayGeneration/BottomPanel/SkillList/Skill2/RankPane"]
+margin_left = 8.0
+margin_top = 5.0
+margin_right = 53.0
+margin_bottom = 24.0
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 134 )
+text = "Rank"
+
+[node name="Rank" type="Label" parent="DisplayGeneration/BottomPanel/SkillList/Skill2/RankPane"]
+margin_left = 53.0
+margin_top = 5.0
+margin_right = 80.0
+margin_bottom = 26.0
+custom_fonts/font = SubResource( 135 )
+text = "1"
+align = 2
+
+[node name="SkillFrame" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill2"]
+margin_left = 7.0
+margin_top = 4.0
+margin_right = 77.0
+margin_bottom = 73.0
+texture = ExtResource( 8 )
+expand = true
+
+[node name="SkillIcon" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill2/SkillFrame"]
+show_behind_parent = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 23 )
+expand = true
+
+[node name="Proficiency" type="HBoxContainer" parent="DisplayGeneration/BottomPanel/SkillList/Skill2/SkillFrame"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -19.0
+margin_bottom = -3.0
+custom_constants/separation = -6
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill2/SkillFrame/Proficiency"]
+margin_left = 20.0
+margin_right = 38.0
+margin_bottom = 18.0
+rect_min_size = Vector2( 18, 18 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource( 60 )
+expand = true
+
+[node name="TextureRect4" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill2/SkillFrame/Proficiency/TextureRect"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -12.0
+margin_top = -12.0
+margin_right = 12.0
+margin_bottom = 12.0
+texture = ExtResource( 61 )
+
+[node name="TextureRect2" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill2/SkillFrame/Proficiency"]
+margin_left = 32.0
+margin_right = 50.0
+margin_bottom = 18.0
+rect_min_size = Vector2( 18, 18 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource( 60 )
+expand = true
+
+[node name="TextureRect4" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill2/SkillFrame/Proficiency/TextureRect2"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -12.0
+margin_top = -12.0
+margin_right = 12.0
+margin_bottom = 12.0
+texture = ExtResource( 61 )
+
+[node name="TextureRect3" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill2/SkillFrame/Proficiency"]
+visible = false
+margin_left = 39.0
+margin_right = 57.0
+margin_bottom = 18.0
+rect_min_size = Vector2( 18, 18 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource( 60 )
+expand = true
+
+[node name="TextureRect4" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill2/SkillFrame/Proficiency/TextureRect3"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -12.0
+margin_top = -12.0
+margin_right = 12.0
+margin_bottom = 12.0
+texture = ExtResource( 61 )
+
+[node name="DamageType" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill2/SkillFrame"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 44.0
+margin_top = -1.0
+margin_bottom = -44.0
+texture = ExtResource( 21 )
+expand = true
+
+[node name="DamageIcons" type="HBoxContainer" parent="DisplayGeneration/BottomPanel/SkillList/Skill2"]
+margin_left = 171.0
+margin_top = 30.0
+margin_right = 211.0
+margin_bottom = 70.0
+
+[node name="Dark" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill2/DamageIcons"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 10 )
+
+[node name="Separator2" type="NinePatchRect" parent="DisplayGeneration/BottomPanel/SkillList"]
+self_modulate = Color( 1, 1, 1, 0.247059 )
+margin_left = 12.0
+margin_top = 167.0
+margin_right = 448.0
+margin_bottom = 183.0
+texture = ExtResource( 7 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="Skill3" type="Button" parent="DisplayGeneration/BottomPanel/SkillList"]
+material = SubResource( 28 )
+margin_left = 19.0
+margin_top = 181.0
+margin_right = 441.0
+margin_bottom = 261.0
+custom_styles/hover = SubResource( 30 )
+custom_styles/pressed = SubResource( 29 )
+custom_styles/focus = SubResource( 30 )
+custom_styles/disabled = SubResource( 30 )
+custom_styles/normal = SubResource( 30 )
+toggle_mode = true
+shortcut_in_tooltip = false
+group = SubResource( 15 )
+
+[node name="SkillName" type="Label" parent="DisplayGeneration/BottomPanel/SkillList/Skill3"]
+margin_left = 85.0
+margin_top = 8.0
+margin_right = 271.0
+margin_bottom = 33.0
+custom_fonts/font = SubResource( 125 )
+text = "Umbra Levin"
+
+[node name="RankPane" type="Panel" parent="DisplayGeneration/BottomPanel/SkillList/Skill3"]
+margin_left = 81.0
+margin_top = 35.0
+margin_right = 169.0
+margin_bottom = 63.0
+custom_styles/panel = SubResource( 31 )
+
+[node name="Title" type="Label" parent="DisplayGeneration/BottomPanel/SkillList/Skill3/RankPane"]
+margin_left = 8.0
+margin_top = 5.0
+margin_right = 53.0
+margin_bottom = 24.0
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 134 )
+text = "Rank"
+
+[node name="Rank" type="Label" parent="DisplayGeneration/BottomPanel/SkillList/Skill3/RankPane"]
+margin_left = 53.0
+margin_top = 5.0
+margin_right = 80.0
+margin_bottom = 26.0
+custom_fonts/font = SubResource( 135 )
+text = "1"
+align = 2
+
+[node name="SkillFrame" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill3"]
+margin_left = 7.0
+margin_top = 4.0
+margin_right = 77.0
+margin_bottom = 73.0
+texture = ExtResource( 8 )
+expand = true
+
+[node name="SkillIcon" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill3/SkillFrame"]
+show_behind_parent = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 23 )
+expand = true
+
+[node name="Proficiency" type="HBoxContainer" parent="DisplayGeneration/BottomPanel/SkillList/Skill3/SkillFrame"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -19.0
+margin_bottom = -3.0
+custom_constants/separation = -6
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill3/SkillFrame/Proficiency"]
+margin_left = 14.0
+margin_right = 32.0
+margin_bottom = 18.0
+rect_min_size = Vector2( 18, 18 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource( 60 )
+expand = true
+
+[node name="TextureRect4" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill3/SkillFrame/Proficiency/TextureRect"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -12.0
+margin_top = -12.0
+margin_right = 12.0
+margin_bottom = 12.0
+texture = ExtResource( 61 )
+
+[node name="TextureRect2" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill3/SkillFrame/Proficiency"]
+margin_left = 26.0
+margin_right = 44.0
+margin_bottom = 18.0
+rect_min_size = Vector2( 18, 18 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource( 60 )
+expand = true
+
+[node name="TextureRect4" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill3/SkillFrame/Proficiency/TextureRect2"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -12.0
+margin_top = -12.0
+margin_right = 12.0
+margin_bottom = 12.0
+texture = ExtResource( 61 )
+
+[node name="TextureRect3" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill3/SkillFrame/Proficiency"]
+margin_left = 38.0
+margin_right = 56.0
+margin_bottom = 18.0
+rect_min_size = Vector2( 18, 18 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource( 60 )
+expand = true
+
+[node name="TextureRect4" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill3/SkillFrame/Proficiency/TextureRect3"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -12.0
+margin_top = -12.0
+margin_right = 12.0
+margin_bottom = 12.0
+texture = ExtResource( 61 )
+
+[node name="DamageType" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill3/SkillFrame"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 44.0
+margin_top = -1.0
+margin_bottom = -44.0
+texture = ExtResource( 21 )
+expand = true
+
+[node name="DamageIcons" type="HBoxContainer" parent="DisplayGeneration/BottomPanel/SkillList/Skill3"]
+margin_left = 171.0
+margin_top = 30.0
+margin_right = 211.0
+margin_bottom = 70.0
+custom_constants/separation = -4
+
+[node name="Thunder" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill3/DamageIcons"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 25 )
+
+[node name="Dark" type="TextureRect" parent="DisplayGeneration/BottomPanel/SkillList/Skill3/DamageIcons"]
+margin_left = 36.0
+margin_right = 76.0
+margin_bottom = 40.0
+texture = ExtResource( 10 )
+
+[node name="ElemResist" type="Button" parent="DisplayGeneration/BottomPanel"]
+margin_left = 486.0
+margin_top = 44.0
+margin_right = 674.0
+margin_bottom = 102.0
+custom_fonts/font = SubResource( 136 )
+custom_styles/hover = SubResource( 137 )
+custom_styles/pressed = SubResource( 138 )
+custom_styles/focus = SubResource( 34 )
+custom_styles/normal = SubResource( 137 )
+toggle_mode = true
+group = SubResource( 15 )
+script = SubResource( 121 )
+__meta__ = {
+"_edit_group_": true
+}
+target = 2
+
+[node name="ScaledText" type="Label" parent="DisplayGeneration/BottomPanel/ElemResist"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = 8.0
+margin_bottom = -17.0
+rect_scale = Vector2( 0.838, 1 )
+custom_fonts/font = SubResource( 7 )
+text = "Elemental Resist."
+
+[node name="Abilities" type="Button" parent="DisplayGeneration/BottomPanel"]
+margin_left = 486.0
+margin_top = 120.0
+margin_right = 674.0
+margin_bottom = 178.0
+custom_fonts/font = SubResource( 139 )
+custom_styles/hover = SubResource( 137 )
+custom_styles/pressed = SubResource( 138 )
+custom_styles/focus = SubResource( 35 )
+custom_styles/normal = SubResource( 137 )
+toggle_mode = true
+group = SubResource( 15 )
+text = "Abilities"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Details" type="Button" parent="DisplayGeneration/BottomPanel"]
+margin_left = 486.0
+margin_top = 196.0
+margin_right = 674.0
+margin_bottom = 254.0
+custom_fonts/font = SubResource( 139 )
+custom_styles/hover = SubResource( 137 )
+custom_styles/pressed = SubResource( 138 )
+custom_styles/focus = SubResource( 36 )
+custom_styles/normal = SubResource( 137 )
+toggle_mode = true
+group = SubResource( 15 )
+text = "Details"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="AbilityPanel" type="PanelContainer" parent="DisplayGeneration" groups=["Panel"]]
+visible = false
+margin_left = 10.0
+margin_top = 719.0
+margin_right = 710.0
+margin_bottom = 1055.0
+custom_styles/panel = SubResource( 88 )
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="DisplayGeneration/AbilityPanel"]
+margin_left = 30.0
+margin_top = 28.0
+margin_right = 672.0
+margin_bottom = 313.0
+custom_constants/separation = 6
+
+[node name="HBoxContainer" type="HBoxContainer" parent="DisplayGeneration/AbilityPanel/VBoxContainer2"]
+margin_right = 642.0
+margin_bottom = 128.0
+custom_constants/separation = 16
+
+[node name="SkillFrame" type="TextureRect" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer"]
+margin_right = 128.0
+margin_bottom = 128.0
+texture = ExtResource( 8 )
+
+[node name="SkillIcon" type="TextureRect" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/SkillFrame"]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -40.0
+margin_bottom = 40.0
+texture = ExtResource( 66 )
+
+[node name="Proficiency" type="HBoxContainer" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/SkillFrame"]
+anchor_top = 0.75
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 0.999992
+margin_bottom = 1.0
+custom_constants/separation = -10
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/SkillFrame/Proficiency"]
+margin_left = 26.0
+margin_right = 58.0
+margin_bottom = 32.0
+size_flags_horizontal = 0
+texture = ExtResource( 60 )
+
+[node name="TextureRect4" type="TextureRect" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/SkillFrame/Proficiency/TextureRect"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -12.0
+margin_top = -12.0
+margin_right = 12.0
+margin_bottom = 12.0
+texture = ExtResource( 61 )
+
+[node name="TextureRect2" type="TextureRect" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/SkillFrame/Proficiency"]
+margin_left = 48.0
+margin_right = 80.0
+margin_bottom = 32.0
+texture = ExtResource( 60 )
+
+[node name="TextureRect4" type="TextureRect" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/SkillFrame/Proficiency/TextureRect2"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -12.0
+margin_top = -12.0
+margin_right = 12.0
+margin_bottom = 12.0
+texture = ExtResource( 61 )
+
+[node name="TextureRect3" type="TextureRect" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/SkillFrame/Proficiency"]
+margin_left = 70.0
+margin_right = 102.0
+margin_bottom = 32.0
+size_flags_horizontal = 0
+texture = ExtResource( 60 )
+
+[node name="TextureRect4" type="TextureRect" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/SkillFrame/Proficiency/TextureRect3"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -12.0
+margin_top = -12.0
+margin_right = 12.0
+margin_bottom = 12.0
+texture = ExtResource( 61 )
+
+[node name="DamageType" type="TextureRect" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/SkillFrame"]
+show_behind_parent = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 64 )
+expand = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer"]
+margin_left = 144.0
+margin_right = 642.0
+margin_bottom = 128.0
+size_flags_horizontal = 3
+custom_constants/separation = 6
+
+[node name="HBoxContainer" type="HBoxContainer" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer"]
+margin_right = 498.0
+margin_bottom = 34.0
+size_flags_vertical = 2
+size_flags_stretch_ratio = 0.0
+
+[node name="Name" type="Label" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer/HBoxContainer"]
+margin_right = 498.0
+margin_bottom = 34.0
+size_flags_horizontal = 3
+size_flags_vertical = 0
+custom_fonts/font = SubResource( 89 )
+custom_styles/normal = SubResource( 90 )
+text = "Mega Thrust"
+
+[node name="AttackAttribute" type="TextureRect" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer/HBoxContainer/Name"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -40.0
+margin_top = -24.0
+margin_bottom = 16.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource( 42 )
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer"]
+margin_top = 40.0
+margin_right = 498.0
+margin_bottom = 78.0
+size_flags_vertical = 2
+size_flags_stretch_ratio = 0.0
+custom_constants/separation = 6
+
+[node name="Power" type="Label" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer/HBoxContainer2"]
+margin_right = 246.0
+margin_bottom = 38.0
+size_flags_horizontal = 3
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 91 )
+custom_styles/normal = SubResource( 92 )
+text = "Power"
+
+[node name="Power2" type="Label" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer/HBoxContainer2/Power"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -114.0
+margin_top = -19.0
+margin_right = -12.0
+margin_bottom = 19.0
+grow_horizontal = 0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 93 )
+text = "SS"
+align = 2
+valign = 1
+
+[node name="Rank" type="Label" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer/HBoxContainer2"]
+margin_left = 252.0
+margin_right = 498.0
+margin_bottom = 38.0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 91 )
+custom_styles/normal = SubResource( 94 )
+text = "Rank"
+
+[node name="Power2" type="Label" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer/HBoxContainer2/Rank"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -112.0
+margin_top = -19.0
+margin_right = -10.0
+margin_bottom = 19.0
+grow_horizontal = 0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 95 )
+text = "2"
+align = 2
+valign = 1
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer"]
+margin_top = 86.0
+margin_right = 498.0
+margin_bottom = 125.0
+size_flags_vertical = 6
+
+[node name="PanelContainer" type="PanelContainer" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer/HBoxContainer3"]
+margin_right = 498.0
+margin_bottom = 39.0
+rect_pivot_offset = Vector2( -24, 2 )
+size_flags_horizontal = 3
+size_flags_vertical = 10
+size_flags_stretch_ratio = 0.81
+custom_styles/panel = SubResource( 96 )
+
+[node name="HBoxContainer" type="HBoxContainer" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer/HBoxContainer3/PanelContainer"]
+margin_left = 7.0
+margin_top = 6.0
+margin_right = 498.0
+margin_bottom = 32.0
+
+[node name="Power" type="Label" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer/HBoxContainer3/PanelContainer/HBoxContainer"]
+margin_right = 243.0
+margin_bottom = 26.0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 91 )
+text = "BP"
+
+[node name="Power2" type="Label" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer/HBoxContainer3/PanelContainer/HBoxContainer/Power"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -114.0
+margin_top = -19.0
+margin_right = -12.0
+margin_bottom = 19.0
+grow_horizontal = 0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 93 )
+text = "12"
+align = 2
+valign = 1
+
+[node name="Separator" type="Panel" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer/HBoxContainer3/PanelContainer/HBoxContainer/Power"]
+self_modulate = Color( 1, 1, 1, 0.247059 )
+margin_left = 241.0
+margin_right = 242.0
+margin_bottom = 23.0
+rect_min_size = Vector2( 1, 0 )
+size_flags_horizontal = 4
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 97 )
+
+[node name="Power2" type="Label" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer/HBoxContainer3/PanelContainer/HBoxContainer"]
+margin_left = 247.0
+margin_right = 491.0
+margin_bottom = 26.0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 91 )
+custom_styles/normal = SubResource( 98 )
+text = "LP"
+
+[node name="Power2" type="Label" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/HBoxContainer/VBoxContainer/HBoxContainer3/PanelContainer/HBoxContainer/Power2"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -112.0
+margin_top = -19.0
+margin_right = -10.0
+margin_bottom = 19.0
+grow_horizontal = 0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 99 )
+text = "-"
+align = 2
+valign = 1
+
+[node name="PanelContainer" type="PanelContainer" parent="DisplayGeneration/AbilityPanel/VBoxContainer2"]
+margin_top = 134.0
+margin_right = 642.0
+margin_bottom = 285.0
+rect_pivot_offset = Vector2( -24, 2 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.81
+custom_styles/panel = SubResource( 100 )
+
+[node name="Label" type="Label" parent="DisplayGeneration/AbilityPanel/VBoxContainer2/PanelContainer"]
+margin_left = 5.0
+margin_top = 9.0
+margin_right = 642.0
+margin_bottom = 54.0
+size_flags_vertical = 0
+custom_fonts/font = SubResource( 101 )
+text = "Attack/Near/Direct/Single Foe (Pierce)
+Attack."
+autowrap = true
+
+[node name="ResistancePanel" type="PanelContainer" parent="DisplayGeneration" groups=["Panel"]]
+visible = false
+margin_left = 5.0
+margin_top = 865.0
+margin_right = 715.0
+margin_bottom = 1055.0
+custom_styles/panel = SubResource( 82 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DisplayGeneration/ResistancePanel"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 684.0
+margin_bottom = 167.0
+custom_constants/separation = 4
+
+[node name="Panel" type="Panel" parent="DisplayGeneration/ResistancePanel/VBoxContainer"]
+margin_right = 260.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 260, 32 )
+size_flags_horizontal = 0
+custom_styles/panel = SubResource( 83 )
+
+[node name="Title" type="Label" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Panel"]
+margin_left = 39.0
+margin_top = 4.0
+margin_right = 333.0
+margin_bottom = 31.0
+rect_scale = Vector2( 0.95, 0.947 )
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 81 )
+text = "Elemental Resistances"
+
+[node name="Resistances" type="PanelContainer" parent="DisplayGeneration/ResistancePanel/VBoxContainer"]
+margin_top = 36.0
+margin_right = 660.0
+margin_bottom = 136.0
+rect_min_size = Vector2( 0, 60 )
+custom_styles/panel = SubResource( 84 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances"]
+margin_left = 20.2105
+margin_top = 7.0
+margin_right = 639.427
+margin_bottom = 93.0
+custom_constants/separation = -5
+
+[node name="HBoxContainer" type="HBoxContainer" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer"]
+margin_right = 619.0
+margin_bottom = 40.0
+size_flags_vertical = 0
+custom_constants/separation = 6
+
+[node name="TextureRect" type="TextureRect" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer"]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+size_flags_horizontal = 2
+size_flags_vertical = 0
+texture = ExtResource( 40 )
+expand = true
+
+[node name="Label" type="Label" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer"]
+margin_left = 78.0
+margin_right = 150.0
+margin_bottom = 40.0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+custom_colors/font_color = Color( 0.909804, 0.411765, 0.407843, 1 )
+custom_fonts/font = SubResource( 86 )
+custom_styles/normal = SubResource( 87 )
+text = "-45"
+align = 2
+valign = 1
+
+[node name="TextureRect2" type="TextureRect" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer"]
+margin_left = 156.0
+margin_right = 196.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+size_flags_horizontal = 2
+size_flags_vertical = 0
+texture = ExtResource( 43 )
+expand = true
+
+[node name="Label2" type="Label" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer"]
+margin_left = 234.0
+margin_right = 306.0
+margin_bottom = 40.0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+custom_colors/font_color = Color( 0.443137, 0.780392, 0.94902, 1 )
+custom_fonts/font = SubResource( 86 )
+custom_styles/normal = SubResource( 87 )
+text = "+25"
+align = 2
+valign = 1
+
+[node name="TextureRect3" type="TextureRect" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer"]
+margin_left = 312.0
+margin_right = 352.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+size_flags_horizontal = 2
+size_flags_vertical = 0
+texture = ExtResource( 42 )
+expand = true
+
+[node name="Label3" type="Label" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer"]
+margin_left = 390.0
+margin_right = 462.0
+margin_bottom = 40.0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+custom_colors/font_color = Color( 0.443137, 0.780392, 0.94902, 1 )
+custom_fonts/font = SubResource( 86 )
+custom_styles/normal = SubResource( 87 )
+text = "+65"
+align = 2
+valign = 1
+
+[node name="TextureRect4" type="TextureRect" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer"]
+margin_left = 468.0
+margin_right = 508.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+size_flags_horizontal = 2
+size_flags_vertical = 0
+texture = ExtResource( 41 )
+expand = true
+
+[node name="Label4" type="Label" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer"]
+margin_left = 546.0
+margin_right = 619.0
+margin_bottom = 40.0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+custom_colors/font_color = Color( 0.443137, 0.780392, 0.94902, 1 )
+custom_fonts/font = SubResource( 86 )
+custom_styles/normal = SubResource( 87 )
+text = "+45"
+align = 2
+valign = 1
+
+[node name="Separator" type="Panel" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_top = 35.0
+margin_right = 619.0
+margin_bottom = 51.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 85 )
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer"]
+margin_top = 46.0
+margin_right = 619.0
+margin_bottom = 86.0
+size_flags_vertical = 0
+custom_constants/separation = 6
+
+[node name="TextureRect" type="TextureRect" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer2"]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+size_flags_horizontal = 2
+size_flags_vertical = 0
+texture = ExtResource( 51 )
+expand = true
+
+[node name="Label" type="Label" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer2"]
+margin_left = 78.0
+margin_right = 150.0
+margin_bottom = 40.0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+custom_colors/font_color = Color( 0.909804, 0.411765, 0.407843, 1 )
+custom_fonts/font = SubResource( 86 )
+custom_styles/normal = SubResource( 87 )
+text = "-45"
+align = 2
+valign = 1
+
+[node name="TextureRect2" type="TextureRect" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer2"]
+margin_left = 156.0
+margin_right = 196.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+size_flags_horizontal = 2
+size_flags_vertical = 0
+texture = ExtResource( 25 )
+expand = true
+
+[node name="Label2" type="Label" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer2"]
+margin_left = 234.0
+margin_right = 306.0
+margin_bottom = 40.0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 86 )
+custom_styles/normal = SubResource( 87 )
+text = "0"
+align = 2
+valign = 1
+
+[node name="TextureRect3" type="TextureRect" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer2"]
+margin_left = 312.0
+margin_right = 352.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+size_flags_horizontal = 2
+size_flags_vertical = 0
+texture = ExtResource( 52 )
+expand = true
+
+[node name="Label3" type="Label" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer2"]
+margin_left = 390.0
+margin_right = 462.0
+margin_bottom = 40.0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 86 )
+custom_styles/normal = SubResource( 87 )
+text = "0"
+align = 2
+valign = 1
+
+[node name="TextureRect4" type="TextureRect" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer2"]
+margin_left = 468.0
+margin_right = 508.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+size_flags_horizontal = 2
+size_flags_vertical = 0
+texture = ExtResource( 10 )
+expand = true
+
+[node name="Label4" type="Label" parent="DisplayGeneration/ResistancePanel/VBoxContainer/Resistances/VBoxContainer/HBoxContainer2"]
+margin_left = 546.0
+margin_right = 619.0
+margin_bottom = 40.0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 86 )
+custom_styles/normal = SubResource( 87 )
+text = "0"
+align = 2
+valign = 1
+
+[node name="DetailsPanel" type="PanelContainer" parent="DisplayGeneration" groups=["Panel"]]
+visible = false
+margin_left = 5.0
+margin_top = 572.0
+margin_right = 715.0
+margin_bottom = 1055.0
+custom_styles/panel = SubResource( 72 )
+
+[node name="BGMask" type="Viewport" parent="DisplayGeneration/DetailsPanel"]
+size = Vector2( 650, 200 )
+transparent_bg = true
+handle_input_locally = false
+disable_3d = true
+usage = 0
+render_direct_to_screen = true
+render_target_v_flip = true
+render_target_clear_mode = 2
+render_target_update_mode = 1
+
+[node name="Mask" type="Panel" parent="DisplayGeneration/DetailsPanel/BGMask"]
+margin_right = 650.0
+margin_bottom = 200.0
+custom_styles/panel = SubResource( 56 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DisplayGeneration/DetailsPanel"]
+margin_left = 25.0
+margin_top = 27.0
+margin_right = 685.0
+margin_bottom = 460.0
+
+[node name="Names" type="Panel" parent="DisplayGeneration/DetailsPanel/VBoxContainer"]
+margin_right = 660.0
+margin_bottom = 108.0
+rect_min_size = Vector2( 0, 108 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 73 )
+
+[node name="Character" type="Label" parent="DisplayGeneration/DetailsPanel/VBoxContainer/Names"]
+margin_left = 15.0
+margin_top = 16.0
+margin_right = 206.0
+margin_bottom = 41.0
+rect_scale = Vector2( 0.991, 1.05 )
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 74 )
+text = "Character Name"
+
+[node name="Name" type="Label" parent="DisplayGeneration/DetailsPanel/VBoxContainer/Names/Character"]
+margin_left = 193.744
+margin_top = -1.90479
+margin_right = 384.744
+margin_bottom = 26.0952
+custom_fonts/font = SubResource( 75 )
+text = "Rocbouquet"
+
+[node name="Separator" type="NinePatchRect" parent="DisplayGeneration/DetailsPanel/VBoxContainer/Names"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_left = 7.0
+margin_top = 46.0
+margin_right = 651.0
+margin_bottom = 62.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+texture = ExtResource( 7 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="Style" type="Label" parent="DisplayGeneration/DetailsPanel/VBoxContainer/Names"]
+margin_left = 14.0
+margin_top = 65.0
+margin_right = 205.0
+margin_bottom = 93.0
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 75 )
+text = "Style Name"
+
+[node name="Name" type="Label" parent="DisplayGeneration/DetailsPanel/VBoxContainer/Names/Style"]
+margin_left = 193.0
+margin_top = -1.0
+margin_right = 384.0
+margin_bottom = 27.0
+custom_fonts/font = SubResource( 75 )
+text = "Rocbouquet"
+
+[node name="JobData" type="Panel" parent="DisplayGeneration/DetailsPanel/VBoxContainer"]
+margin_top = 112.0
+margin_right = 660.0
+margin_bottom = 216.0
+rect_min_size = Vector2( 0, 104 )
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 73 )
+
+[node name="Weapon" type="HBoxContainer" parent="DisplayGeneration/DetailsPanel/VBoxContainer/JobData"]
+margin_left = 16.0
+margin_right = 328.0
+margin_bottom = 56.0
+custom_constants/separation = 22
+
+[node name="Title" type="Label" parent="DisplayGeneration/DetailsPanel/VBoxContainer/JobData/Weapon"]
+margin_top = 15.0
+margin_right = 61.0
+margin_bottom = 41.0
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 76 )
+text = "Type"
+
+[node name="Separator" type="NinePatchRect" parent="DisplayGeneration/DetailsPanel/VBoxContainer/JobData/Weapon/Title"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_left = -9.0
+margin_top = 29.0
+margin_right = 305.0
+margin_bottom = 45.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+texture = ExtResource( 7 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="Type" type="Label" parent="DisplayGeneration/DetailsPanel/VBoxContainer/JobData/Weapon"]
+margin_left = 83.0
+margin_top = 10.0
+margin_right = 201.0
+margin_bottom = 45.0
+custom_fonts/font = SubResource( 77 )
+custom_styles/normal = SubResource( 78 )
+text = "Staff"
+valign = 1
+
+[node name="Icon" type="TextureRect" parent="DisplayGeneration/DetailsPanel/VBoxContainer/JobData/Weapon/Type"]
+margin_left = -9.02429
+margin_top = -2.0
+margin_right = 30.9757
+margin_bottom = 38.0
+texture = ExtResource( 47 )
+expand = true
+
+[node name="Role" type="HBoxContainer" parent="DisplayGeneration/DetailsPanel/VBoxContainer/JobData"]
+margin_left = 345.0
+margin_top = 6.0
+margin_right = 643.0
+margin_bottom = 48.0
+custom_constants/separation = 31
+
+[node name="Title" type="Label" parent="DisplayGeneration/DetailsPanel/VBoxContainer/JobData/Role"]
+margin_top = 7.0
+margin_right = 61.0
+margin_bottom = 35.0
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 79 )
+text = "Role"
+
+[node name="Separator2" type="NinePatchRect" parent="DisplayGeneration/DetailsPanel/VBoxContainer/JobData/Role/Title"]
+self_modulate = Color( 1, 1, 1, 0.25098 )
+margin_left = -8.0
+margin_top = 31.0
+margin_right = 306.0
+margin_bottom = 47.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+texture = ExtResource( 7 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="Type" type="Label" parent="DisplayGeneration/DetailsPanel/VBoxContainer/JobData/Role"]
+margin_left = 92.0
+margin_top = 7.0
+margin_right = 230.0
+margin_bottom = 35.0
+custom_fonts/font = SubResource( 79 )
+text = "Supporter"
+
+[node name="Affinity" type="Control" parent="DisplayGeneration/DetailsPanel/VBoxContainer/JobData"]
+margin_left = 8.0
+margin_top = 56.0
+margin_right = 323.0
+margin_bottom = 96.0
+
+[node name="Title" type="Label" parent="DisplayGeneration/DetailsPanel/VBoxContainer/JobData/Affinity"]
+margin_left = 7.0
+margin_top = 6.0
+margin_right = 183.0
+margin_bottom = 33.0
+rect_scale = Vector2( 0.948, 1 )
+custom_colors/font_color = Color( 0.996078, 0.980392, 0.768627, 1 )
+custom_fonts/font = SubResource( 81 )
+text = "Spell Affinity"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="DisplayGeneration/DetailsPanel/VBoxContainer/JobData/Affinity"]
+margin_left = 195.0
+margin_top = 4.0
+margin_right = 227.0
+margin_bottom = 39.0
+custom_constants/separation = 0
+
+[node name="TextureRect" type="TextureRect" parent="DisplayGeneration/DetailsPanel/VBoxContainer/JobData/Affinity/HBoxContainer"]
+margin_right = 32.0
+margin_bottom = 35.0
+rect_min_size = Vector2( 32, 32 )
+texture = ExtResource( 39 )
+expand = true
+stretch_mode = 5
+
+[node name="TextureRect2" type="TextureRect" parent="DisplayGeneration/DetailsPanel/VBoxContainer/JobData/Affinity/HBoxContainer"]
+margin_left = 32.0
+margin_right = 64.0
+margin_bottom = 35.0
+rect_min_size = Vector2( 32, 32 )
+texture = ExtResource( 21 )
+expand = true
+stretch_mode = 5
+
+[node name="Frame" type="Panel" parent="DisplayGeneration/DetailsPanel/VBoxContainer"]
+margin_top = 220.0
+margin_right = 660.0
+margin_bottom = 433.0
+size_flags_vertical = 3
+custom_styles/panel = SubResource( 55 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Background" type="TextureRect" parent="DisplayGeneration/DetailsPanel/VBoxContainer/Frame"]
+self_modulate = Color( 1, 1, 1, 0.341176 )
+show_behind_parent = true
+material = SubResource( 70 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 6.0
+margin_right = -6.0
+margin_bottom = -4.0
+texture = SubResource( 71 )
+expand = true
+
+[node name="Label" type="Label" parent="DisplayGeneration/DetailsPanel/VBoxContainer/Frame"]
+margin_left = 30.0
+margin_top = 38.0
+margin_right = 630.0
+margin_bottom = 175.0
+rect_scale = Vector2( 0.998, 1.016 )
+custom_fonts/font = SubResource( 80 )
+text = "The one who can help Lord Wagnas is not I, but rather my brother, Lord Noel. The one Lord Wagnas first called for was not I, but Lord Noel. One day I hope I can serve Lord Wagnas, and be the one he requests first."
+valign = 1
+autowrap = true
+
+[node name="SkillsPanel" type="PanelContainer" parent="DisplayGeneration" groups=["Panel"]]
+visible = false
+margin_left = 5.0
+margin_top = 373.0
+margin_right = 716.0
+margin_bottom = 1065.97
+custom_styles/panel = SubResource( 117 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DisplayGeneration/SkillsPanel"]
+margin_left = 25.0
+margin_top = 24.0
+margin_right = 663.0
+margin_bottom = 656.0
+custom_constants/separation = 0
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true
+}
+
+[node name="SkillSlot1" type="Control" parent="DisplayGeneration/SkillsPanel/VBoxContainer"]
+margin_right = 638.0
+margin_bottom = 146.0
+rect_min_size = Vector2( 0, 146 )
+
+[node name="AbilityFrame" type="TextureRect" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot1"]
+margin_left = 4.0
+margin_top = 23.0
+margin_right = 101.0
+margin_bottom = 120.0
+rect_min_size = Vector2( 97, 97 )
+size_flags_horizontal = 0
+size_flags_vertical = 4
+texture = ExtResource( 37 )
+expand = true
+
+[node name="AbilityIcon" type="TextureRect" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot1/AbilityFrame"]
+show_behind_parent = true
+margin_right = 97.0
+margin_bottom = 97.0
+rect_min_size = Vector2( 97, 97 )
+size_flags_horizontal = 0
+size_flags_vertical = 4
+texture = ExtResource( 31 )
+expand = true
+
+[node name="SkillName" type="Label" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot1"]
+margin_left = 104.0
+margin_top = 9.0
+margin_right = 301.0
+margin_bottom = 34.0
+rect_scale = Vector2( 1.02, 1 )
+custom_fonts/font = SubResource( 44 )
+text = "Master of Insults"
+
+[node name="Panel" type="Panel" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot1"]
+margin_left = 97.0
+margin_top = 30.0
+margin_right = 654.0
+margin_bottom = 144.0
+custom_styles/panel = SubResource( 53 )
+
+[node name="SkillDescription" type="Label" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot1"]
+margin_left = 121.0
+margin_top = 43.0
+margin_right = 630.0
+margin_bottom = 138.0
+rect_scale = Vector2( 0.959, 0.949 )
+custom_constants/line_spacing = 0
+custom_fonts/font = SubResource( 54 )
+text = "When being attacked, evades ememy's attack (low chance)."
+autowrap = true
+
+[node name="Separator4" type="NinePatchRect" parent="DisplayGeneration/SkillsPanel/VBoxContainer"]
+self_modulate = Color( 0.596078, 0.52549, 0.423529, 1 )
+margin_top = 146.0
+margin_right = 638.0
+margin_bottom = 162.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+texture = ExtResource( 7 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="SkillSlot2" type="Control" parent="DisplayGeneration/SkillsPanel/VBoxContainer"]
+margin_top = 162.0
+margin_right = 638.0
+margin_bottom = 308.0
+rect_min_size = Vector2( 0, 146 )
+
+[node name="AbilityFrame" type="TextureRect" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot2"]
+margin_left = 4.0
+margin_top = 23.0
+margin_right = 101.0
+margin_bottom = 120.0
+rect_min_size = Vector2( 97, 97 )
+size_flags_horizontal = 0
+size_flags_vertical = 4
+texture = ExtResource( 37 )
+expand = true
+
+[node name="AbilityIcon" type="TextureRect" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot2/AbilityFrame"]
+show_behind_parent = true
+margin_right = 97.0
+margin_bottom = 97.0
+rect_min_size = Vector2( 97, 97 )
+size_flags_horizontal = 0
+size_flags_vertical = 4
+texture = ExtResource( 31 )
+expand = true
+
+[node name="SkillName" type="Label" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot2"]
+margin_left = 104.0
+margin_top = 9.0
+margin_right = 301.0
+margin_bottom = 34.0
+rect_scale = Vector2( 1.02, 1 )
+custom_fonts/font = SubResource( 44 )
+text = "Master of Insults"
+
+[node name="Panel" type="Panel" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot2"]
+margin_left = 97.0
+margin_top = 30.0
+margin_right = 654.0
+margin_bottom = 144.0
+custom_styles/panel = SubResource( 53 )
+
+[node name="SkillDescription" type="Label" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot2"]
+margin_left = 121.0
+margin_top = 43.0
+margin_right = 630.0
+margin_bottom = 138.0
+rect_scale = Vector2( 0.959, 0.949 )
+custom_constants/line_spacing = 0
+custom_fonts/font = SubResource( 54 )
+text = "When being attacked, evades ememy's attack (low chance)."
+autowrap = true
+
+[node name="Separator7" type="NinePatchRect" parent="DisplayGeneration/SkillsPanel/VBoxContainer"]
+self_modulate = Color( 0.596078, 0.52549, 0.423529, 1 )
+margin_top = 308.0
+margin_right = 638.0
+margin_bottom = 324.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+texture = ExtResource( 7 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="SkillSlot3" type="Control" parent="DisplayGeneration/SkillsPanel/VBoxContainer"]
+margin_top = 324.0
+margin_right = 638.0
+margin_bottom = 470.0
+rect_min_size = Vector2( 0, 146 )
+
+[node name="AbilityFrame" type="TextureRect" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot3"]
+margin_left = 4.0
+margin_top = 23.0
+margin_right = 101.0
+margin_bottom = 120.0
+rect_min_size = Vector2( 97, 97 )
+size_flags_horizontal = 0
+size_flags_vertical = 4
+texture = ExtResource( 37 )
+expand = true
+
+[node name="AbilityIcon" type="TextureRect" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot3/AbilityFrame"]
+show_behind_parent = true
+margin_right = 97.0
+margin_bottom = 97.0
+rect_min_size = Vector2( 97, 97 )
+size_flags_horizontal = 0
+size_flags_vertical = 4
+texture = ExtResource( 31 )
+expand = true
+
+[node name="SkillName" type="Label" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot3"]
+margin_left = 104.0
+margin_top = 9.0
+margin_right = 301.0
+margin_bottom = 34.0
+rect_scale = Vector2( 1.02, 1 )
+custom_fonts/font = SubResource( 44 )
+text = "Master of Insults"
+
+[node name="Panel" type="Panel" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot3"]
+margin_left = 97.0
+margin_top = 30.0
+margin_right = 654.0
+margin_bottom = 144.0
+custom_styles/panel = SubResource( 53 )
+
+[node name="SkillDescription" type="Label" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot3"]
+margin_left = 121.0
+margin_top = 43.0
+margin_right = 630.0
+margin_bottom = 138.0
+rect_scale = Vector2( 0.959, 0.949 )
+custom_constants/line_spacing = 0
+custom_fonts/font = SubResource( 54 )
+text = "When being attacked, evades ememy's attack (low chance)."
+autowrap = true
+
+[node name="Separator8" type="NinePatchRect" parent="DisplayGeneration/SkillsPanel/VBoxContainer"]
+self_modulate = Color( 0.596078, 0.52549, 0.423529, 1 )
+margin_top = 470.0
+margin_right = 638.0
+margin_bottom = 486.0
+rect_min_size = Vector2( 0, 16 )
+size_flags_vertical = 0
+texture = ExtResource( 7 )
+patch_margin_left = 14
+patch_margin_right = 14
+
+[node name="SkillSlot4" type="Control" parent="DisplayGeneration/SkillsPanel/VBoxContainer"]
+margin_top = 486.0
+margin_right = 638.0
+margin_bottom = 632.0
+rect_min_size = Vector2( 0, 146 )
+
+[node name="AbilityFrame" type="TextureRect" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot4"]
+margin_left = 4.0
+margin_top = 23.0
+margin_right = 101.0
+margin_bottom = 120.0
+rect_min_size = Vector2( 97, 97 )
+size_flags_horizontal = 0
+size_flags_vertical = 4
+texture = ExtResource( 37 )
+expand = true
+
+[node name="AbilityIcon" type="TextureRect" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot4/AbilityFrame"]
+show_behind_parent = true
+margin_right = 97.0
+margin_bottom = 97.0
+rect_min_size = Vector2( 97, 97 )
+size_flags_horizontal = 0
+size_flags_vertical = 4
+texture = ExtResource( 31 )
+expand = true
+
+[node name="SkillName" type="Label" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot4"]
+margin_left = 104.0
+margin_top = 9.0
+margin_right = 301.0
+margin_bottom = 34.0
+rect_scale = Vector2( 1.02, 1 )
+custom_fonts/font = SubResource( 44 )
+text = "Master of Insults"
+
+[node name="Panel" type="Panel" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot4"]
+margin_left = 97.0
+margin_top = 30.0
+margin_right = 654.0
+margin_bottom = 144.0
+custom_styles/panel = SubResource( 53 )
+
+[node name="SkillDescription" type="Label" parent="DisplayGeneration/SkillsPanel/VBoxContainer/SkillSlot4"]
+margin_left = 121.0
+margin_top = 43.0
+margin_right = 630.0
+margin_bottom = 127.0
+rect_scale = Vector2( 0.959, 0.949 )
+custom_constants/line_spacing = 0
+custom_fonts/font = SubResource( 54 )
+text = "・3x attribute gains in Battle with Cursed One (Blunt/Heat/Sun) (2x in Main)
+・Bonus Cracked Ceramic (Yellow) drops in Battle with Cursed One (Blunt/Heat/Sun)"
+autowrap = true
+
+[node name="ScreenshotGeneration" type="Viewport" parent="."]
+size = Vector2( 935, 1520 )
+transparent_bg = true
+render_target_v_flip = true
+render_target_update_mode = 3
+script = ExtResource( 49 )
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="ScreenshotGeneration"]
+anchor_bottom = 1.0
+ratio = 0.615
+stretch_mode = 1
+alignment_horizontal = 0
+alignment_vertical = 0
+
+[node name="RarityBG" type="TextureRect" parent="ScreenshotGeneration/AspectRatioContainer"]
+margin_right = 934.8
+margin_bottom = 1520.0
+texture = ExtResource( 28 )
+expand = true
+
+[node name="StyleImage" type="AspectRatioContainer" parent="ScreenshotGeneration/AspectRatioContainer/RarityBG"]
+anchor_left = 0.5
+anchor_top = 0.052
+anchor_right = 0.5
+anchor_bottom = 0.984
+margin_left = -435.53
+margin_top = -0.0400009
+margin_right = 435.47
+margin_bottom = 0.319946
+ratio = 0.681
+stretch_mode = 1
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Style" type="TextureRect" parent="ScreenshotGeneration/AspectRatioContainer/RarityBG/StyleImage"]
+margin_left = -46.9885
+margin_right = 917.989
+margin_bottom = 1417.0
+size_flags_horizontal = 7
+size_flags_vertical = 3
+texture = ExtResource( 69 )
+expand = true
+
+[node name="BG" type="TextureRect" parent="ScreenshotGeneration/AspectRatioContainer/RarityBG/StyleImage/Style"]
+show_behind_parent = true
+anchor_left = -0.125
+anchor_top = -0.045
+anchor_right = 1.125
+anchor_bottom = 1.045
+size_flags_horizontal = 7
+size_flags_vertical = 3
+texture = ExtResource( 70 )
+expand = true
+
+[node name="FxFront" type="TextureRect" parent="ScreenshotGeneration/AspectRatioContainer/RarityBG/StyleImage/Style"]
+show_behind_parent = true
+anchor_left = -0.125
+anchor_top = -0.045
+anchor_right = 1.125
+anchor_bottom = 1.045
+size_flags_horizontal = 7
+size_flags_vertical = 3
+texture = ExtResource( 68 )
+expand = true
+
+[node name="TextureRect" type="TextureRect" parent="ScreenshotGeneration/AspectRatioContainer/RarityBG"]
+anchor_left = 0.115533
+anchor_right = 0.883612
+anchor_bottom = 1.0
+mouse_filter = 0
+texture = SubResource( 123 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="MobileDisplayGuide" type="ReferenceRect" parent="ScreenshotGeneration/AspectRatioContainer/RarityBG/TextureRect"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+border_width = 5.0
+editor_only = false
+
+[node name="BlurFiler" type="ColorRect" parent="ScreenshotGeneration/AspectRatioContainer/RarityBG/TextureRect"]
+visible = false
+modulate = Color( 0.309804, 0.309804, 0.309804, 1 )
+material = SubResource( 119 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -148.0
+margin_top = -17.0
+margin_right = 148.0
+margin_bottom = 17.0
+rect_pivot_offset = Vector2( 199.4, 788 )
+color = Color( 0, 0, 0, 1 )
+
+[node name="OverlayDisplay" type="TextureRect" parent="ScreenshotGeneration/AspectRatioContainer/RarityBG"]
+visible = false
+anchor_left = 0.115533
+anchor_right = 0.883612
+anchor_bottom = 1.0
+mouse_filter = 0
+texture = SubResource( 124 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="RarityBG" type="TextureRect" parent="."]
+margin_left = -467.4
+margin_right = 467.4
+margin_bottom = 1520.0
+texture = ExtResource( 28 )
+expand = true
+
+[node name="StyleImage" type="AspectRatioContainer" parent="RarityBG"]
+anchor_left = 0.5
+anchor_top = 0.052
+anchor_right = 0.5
+anchor_bottom = 0.984
+margin_left = -435.53
+margin_top = -0.0400009
+margin_right = 435.47
+margin_bottom = 0.319946
+ratio = 0.681
+stretch_mode = 1
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Style" type="TextureRect" parent="RarityBG/StyleImage"]
+margin_left = -46.9885
+margin_right = 917.989
+margin_bottom = 1417.0
+size_flags_horizontal = 7
+size_flags_vertical = 3
+texture = ExtResource( 69 )
+expand = true
+
+[node name="BG" type="TextureRect" parent="RarityBG/StyleImage/Style"]
+show_behind_parent = true
+anchor_left = -0.125
+anchor_top = -0.045
+anchor_right = 1.125
+anchor_bottom = 1.045
+size_flags_horizontal = 7
+size_flags_vertical = 3
+texture = ExtResource( 70 )
+expand = true
+
+[node name="FxFront" type="TextureRect" parent="RarityBG/StyleImage/Style"]
+show_behind_parent = true
+anchor_left = -0.125
+anchor_top = -0.045
+anchor_right = 1.125
+anchor_bottom = 1.045
+size_flags_horizontal = 7
+size_flags_vertical = 3
+texture = ExtResource( 68 )
+expand = true
+
+[node name="TextureRect" type="TextureRect" parent="RarityBG"]
+anchor_left = 0.115533
+anchor_right = 0.883612
+anchor_bottom = 1.0
+mouse_filter = 0
+texture = SubResource( 114 )
+expand = true
+script = SubResource( 115 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="MobileDisplayGuide" type="ReferenceRect" parent="RarityBG/TextureRect"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+border_width = 5.0
+editor_only = false
+
+[node name="BlurFiler" type="ColorRect" parent="RarityBG/TextureRect"]
+visible = false
+modulate = Color( 0.309804, 0.309804, 0.309804, 1 )
+material = SubResource( 119 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -148.0
+margin_top = -17.0
+margin_right = 148.0
+margin_bottom = 17.0
+rect_pivot_offset = Vector2( 199.4, 788 )
+color = Color( 0, 0, 0, 1 )
+
+[node name="OverlayDisplay" type="TextureRect" parent="RarityBG"]
+visible = false
+anchor_left = 0.115533
+anchor_right = 0.883612
+anchor_bottom = 1.0
+mouse_filter = 0
+texture = SubResource( 120 )
+expand = true
+script = SubResource( 122 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Screenshot20220313-085624" type="Sprite" parent="."]
+visible = false
+position = Vector2( -360, 0 )
+texture = ExtResource( 22 )
+centered = false
