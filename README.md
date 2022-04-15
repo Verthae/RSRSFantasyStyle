@@ -14,5 +14,5 @@ Still in the design phase.
 Input panel still needs to be hooked up to a data container to populate the main display.
 Design decisions for input methods still being looked at.
 
-#Plans
+# Plans
 The goal is to be able to import custom artwork for Background, Foreground, and Character art as well as fill in the simulated in-game Style Data screen to create a preview of what the user can come up with for a vision of a Custom Character Style.
